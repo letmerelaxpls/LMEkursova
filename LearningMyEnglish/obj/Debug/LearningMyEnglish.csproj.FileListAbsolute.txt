@@ -1,0 +1,11 @@
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\LearningMyEnglish.exe.config
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\LearningMyEnglish.exe
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\LearningMyEnglish.pdb
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.csproj.AssemblyReference.cache
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.csproj.SuggestedBindingRedirects.cache
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.Form1.resources
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.Properties.Resources.resources
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.csproj.GenerateResource.cache
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.csproj.CoreCompileInputs.cache
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.exe
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.pdb
