@@ -53,10 +53,6 @@ namespace LearningMyEnglish
             label.Visible = false;
         }
         
-        private void button1_MouseLeave(object sender, EventArgs e)
-        {
-            tskBnt1Description.Hide();
-        }
 
         private void btnTasks_Click(object sender, EventArgs e)
         {

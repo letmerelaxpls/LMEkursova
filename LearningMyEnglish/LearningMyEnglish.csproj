@@ -52,10 +52,19 @@
     <Compile Include="LearningMyEnglish - Tasks.Designer.cs">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
     </Compile>
+    <Compile Include="pnlTasks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlTasks.Designer.cs">
+      <DependentUpon>pnlTasks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="LearningMyEnglish - Tasks.resx">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlTasks.resx">
+      <DependentUpon>pnlTasks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

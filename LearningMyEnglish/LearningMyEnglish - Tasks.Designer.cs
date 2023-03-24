@@ -37,12 +37,12 @@
             this.tskBnt1Description = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tabs = new System.Windows.Forms.Panel();
+            this.btnTasks = new System.Windows.Forms.Button();
+            this.btnRules = new System.Windows.Forms.Button();
             this.taskspanel = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.btnTasks = new System.Windows.Forms.Button();
-            this.btnRules = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabs.SuspendLayout();
             this.taskspanel.SuspendLayout();
@@ -64,7 +64,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 12);
+            this.label1.Location = new System.Drawing.Point(4, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 5;
@@ -74,7 +74,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 12);
+            this.label2.Location = new System.Drawing.Point(49, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 6;
@@ -94,7 +94,7 @@
             // tskBnt1Description
             // 
             this.tskBnt1Description.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tskBnt1Description.Location = new System.Drawing.Point(3, 10);
+            this.tskBnt1Description.Location = new System.Drawing.Point(3, 68);
             this.tskBnt1Description.Name = "tskBnt1Description";
             this.tskBnt1Description.Size = new System.Drawing.Size(458, 26);
             this.tskBnt1Description.TabIndex = 0;
@@ -111,7 +111,6 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "№1";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             // 
             // tabs
             // 
@@ -122,52 +121,6 @@
             this.tabs.Name = "tabs";
             this.tabs.Size = new System.Drawing.Size(108, 54);
             this.tabs.TabIndex = 3;
-            // 
-            // taskspanel
-            // 
-            this.taskspanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.taskspanel.Controls.Add(this.button4);
-            this.taskspanel.Controls.Add(this.button2);
-            this.taskspanel.Controls.Add(this.button3);
-            this.taskspanel.Controls.Add(this.button1);
-            this.taskspanel.Controls.Add(this.panel1);
-            this.taskspanel.Location = new System.Drawing.Point(12, 66);
-            this.taskspanel.Name = "taskspanel";
-            this.taskspanel.Size = new System.Drawing.Size(1014, 483);
-            this.taskspanel.TabIndex = 4;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(326, 32);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(74, 60);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "№4";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(124, 32);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 60);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "№2";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(224, 32);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(74, 60);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "№3";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // btnTasks
             // 
@@ -205,8 +158,51 @@
             this.btnRules.MouseEnter += new System.EventHandler(this.btnRules_MouseEnter);
             this.btnRules.MouseLeave += new System.EventHandler(this.btnRules_MouseLeave);
             // 
-            // pnlTasks2
+            // taskspanel
             // 
+            this.taskspanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.taskspanel.Controls.Add(this.button4);
+            this.taskspanel.Controls.Add(this.button2);
+            this.taskspanel.Controls.Add(this.button3);
+            this.taskspanel.Controls.Add(this.button1);
+            this.taskspanel.Controls.Add(this.panel1);
+            this.taskspanel.Location = new System.Drawing.Point(12, 66);
+            this.taskspanel.Name = "taskspanel";
+            this.taskspanel.Size = new System.Drawing.Size(1014, 483);
+            this.taskspanel.TabIndex = 4;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(326, 32);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(74, 60);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "№4";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(122, 32);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(74, 60);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "№2";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(224, 32);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(74, 60);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "№3";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
