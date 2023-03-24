@@ -28,113 +28,167 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.theme1 = new System.Windows.Forms.Button();
+            this.theme2 = new System.Windows.Forms.Button();
+            this.theme3 = new System.Windows.Forms.Button();
+            this.theme4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.thmdesc5 = new System.Windows.Forms.Label();
+            this.thmdesc4 = new System.Windows.Forms.Label();
+            this.thmdesc3 = new System.Windows.Forms.Label();
+            this.thmdesc2 = new System.Windows.Forms.Label();
+            this.thmdesc1 = new System.Windows.Forms.Label();
+            this.thmsDesc = new System.Windows.Forms.Label();
+            this.theme5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // theme1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(21, 32);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 60);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "№1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.theme1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.theme1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.theme1.Location = new System.Drawing.Point(21, 32);
+            this.theme1.Name = "theme1";
+            this.theme1.Size = new System.Drawing.Size(74, 60);
+            this.theme1.TabIndex = 2;
+            this.theme1.Text = "№1";
+            this.theme1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // theme2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(126, 32);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 60);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "№2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.theme2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.theme2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.theme2.Location = new System.Drawing.Point(126, 32);
+            this.theme2.Name = "theme2";
+            this.theme2.Size = new System.Drawing.Size(74, 60);
+            this.theme2.TabIndex = 4;
+            this.theme2.Text = "№2";
+            this.theme2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // theme3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(231, 32);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(74, 60);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "№3";
-            this.button3.UseVisualStyleBackColor = false;
+            this.theme3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.theme3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.theme3.Location = new System.Drawing.Point(231, 32);
+            this.theme3.Name = "theme3";
+            this.theme3.Size = new System.Drawing.Size(74, 60);
+            this.theme3.TabIndex = 5;
+            this.theme3.Text = "№3";
+            this.theme3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // theme4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(336, 32);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(74, 60);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "№4";
-            this.button4.UseVisualStyleBackColor = false;
+            this.theme4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.theme4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.theme4.Location = new System.Drawing.Point(336, 32);
+            this.theme4.Name = "theme4";
+            this.theme4.Size = new System.Drawing.Size(74, 60);
+            this.theme4.TabIndex = 6;
+            this.theme4.Text = "№4";
+            this.theme4.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.thmdesc5);
+            this.panel1.Controls.Add(this.thmdesc4);
+            this.panel1.Controls.Add(this.thmdesc3);
+            this.panel1.Controls.Add(this.thmdesc2);
+            this.panel1.Controls.Add(this.thmdesc1);
+            this.panel1.Controls.Add(this.thmsDesc);
             this.panel1.Location = new System.Drawing.Point(3, 384);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(462, 96);
             this.panel1.TabIndex = 7;
             // 
-            // label1
+            // thmdesc5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
-            this.label1.Visible = false;
+            this.thmdesc5.AutoSize = true;
+            this.thmdesc5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.thmdesc5.Location = new System.Drawing.Point(10, 40);
+            this.thmdesc5.Name = "thmdesc5";
+            this.thmdesc5.Size = new System.Drawing.Size(180, 20);
+            this.thmdesc5.TabIndex = 13;
+            this.thmdesc5.Text = "Опис до п\'ятої теми";
+            this.thmdesc5.Visible = false;
             // 
-            // label2
+            // thmdesc4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "label2";
-            this.label2.Visible = false;
+            this.thmdesc4.AutoSize = true;
+            this.thmdesc4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.thmdesc4.Location = new System.Drawing.Point(10, 40);
+            this.thmdesc4.Name = "thmdesc4";
+            this.thmdesc4.Size = new System.Drawing.Size(216, 20);
+            this.thmdesc4.TabIndex = 12;
+            this.thmdesc4.Text = "Опис до четвертої теми";
+            this.thmdesc4.Visible = false;
             // 
-            // label3
+            // thmdesc3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 11);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "label3";
-            this.label3.Visible = false;
+            this.thmdesc3.AutoSize = true;
+            this.thmdesc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.thmdesc3.Location = new System.Drawing.Point(10, 40);
+            this.thmdesc3.Name = "thmdesc3";
+            this.thmdesc3.Size = new System.Drawing.Size(196, 20);
+            this.thmdesc3.TabIndex = 11;
+            this.thmdesc3.Text = "Опис до третьої теми";
+            this.thmdesc3.Visible = false;
+            // 
+            // thmdesc2
+            // 
+            this.thmdesc2.AutoSize = true;
+            this.thmdesc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.thmdesc2.Location = new System.Drawing.Point(10, 40);
+            this.thmdesc2.Name = "thmdesc2";
+            this.thmdesc2.Size = new System.Drawing.Size(184, 20);
+            this.thmdesc2.TabIndex = 10;
+            this.thmdesc2.Text = "Опис до другої теми";
+            this.thmdesc2.Visible = false;
+            // 
+            // thmdesc1
+            // 
+            this.thmdesc1.AutoSize = true;
+            this.thmdesc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.thmdesc1.Location = new System.Drawing.Point(10, 40);
+            this.thmdesc1.Name = "thmdesc1";
+            this.thmdesc1.Size = new System.Drawing.Size(190, 20);
+            this.thmdesc1.TabIndex = 9;
+            this.thmdesc1.Text = "Опис до першої теми";
+            this.thmdesc1.Visible = false;
+            // 
+            // thmsDesc
+            // 
+            this.thmsDesc.AutoSize = true;
+            this.thmsDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.thmsDesc.Location = new System.Drawing.Point(3, 9);
+            this.thmsDesc.Name = "thmsDesc";
+            this.thmsDesc.Size = new System.Drawing.Size(162, 25);
+            this.thmsDesc.TabIndex = 8;
+            this.thmsDesc.Text = "Опис до теми:";
+            // 
+            // theme5
+            // 
+            this.theme5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.theme5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.theme5.Location = new System.Drawing.Point(441, 32);
+            this.theme5.Name = "theme5";
+            this.theme5.Size = new System.Drawing.Size(74, 60);
+            this.theme5.TabIndex = 8;
+            this.theme5.Text = "№5";
+            this.theme5.UseVisualStyleBackColor = false;
             // 
             // pnlTasks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.theme5);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.theme4);
+            this.Controls.Add(this.theme3);
+            this.Controls.Add(this.theme2);
+            this.Controls.Add(this.theme1);
             this.Name = "pnlTasks";
             this.Size = new System.Drawing.Size(1014, 483);
             this.Load += new System.EventHandler(this.pnlTasks_Load);
@@ -146,13 +200,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button theme1;
+        private System.Windows.Forms.Button theme2;
+        private System.Windows.Forms.Button theme3;
+        private System.Windows.Forms.Button theme4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label thmdesc2;
+        private System.Windows.Forms.Label thmdesc1;
+        private System.Windows.Forms.Label thmsDesc;
+        private System.Windows.Forms.Button theme5;
+        private System.Windows.Forms.Label thmdesc5;
+        private System.Windows.Forms.Label thmdesc4;
+        private System.Windows.Forms.Label thmdesc3;
     }
 }

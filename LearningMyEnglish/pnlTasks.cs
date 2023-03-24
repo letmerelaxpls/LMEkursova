@@ -24,9 +24,11 @@ namespace LearningMyEnglish
 
         private void pnlTasks_Load(object sender, EventArgs e)
         {
-            buttonLabels.Add(button1, label1);
-            buttonLabels.Add(button2, label2);
-            buttonLabels.Add(button3, label3);
+            buttonLabels.Add(theme1, thmdesc1);
+            buttonLabels.Add(theme2, thmdesc2);
+            buttonLabels.Add(theme3, thmdesc3);
+            buttonLabels.Add(theme4, thmdesc4);
+            buttonLabels.Add(theme5, thmdesc5);
 
 
             foreach (var buttonLabel in buttonLabels)
@@ -51,5 +53,7 @@ namespace LearningMyEnglish
             var label = buttonLabels[button];
             label.Visible = false;
         }
+
+      
     }
 }
