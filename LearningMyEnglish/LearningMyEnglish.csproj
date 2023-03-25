@@ -52,6 +52,12 @@
     <Compile Include="LearningMyEnglish - Tasks.Designer.cs">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
     </Compile>
+    <Compile Include="pnlRules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlRules.Designer.cs">
+      <DependentUpon>pnlRules.cs</DependentUpon>
+    </Compile>
     <Compile Include="pnlTasks.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="LearningMyEnglish - Tasks.resx">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlRules.resx">
+      <DependentUpon>pnlRules.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pnlTasks.resx">
       <DependentUpon>pnlTasks.cs</DependentUpon>

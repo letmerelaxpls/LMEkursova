@@ -34,6 +34,7 @@
             this.btnTasks = new System.Windows.Forms.Button();
             this.btnRules = new System.Windows.Forms.Button();
             this.pnlTasks1 = new LearningMyEnglish.pnlTasks();
+            this.pnlRules1 = new LearningMyEnglish.pnlRules();
             this.tabs.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +43,7 @@
             this.tabs.BackColor = System.Drawing.Color.DodgerBlue;
             this.tabs.Controls.Add(this.btnTasks);
             this.tabs.Controls.Add(this.btnRules);
-            this.tabs.Location = new System.Drawing.Point(12, 12);
+            this.tabs.Location = new System.Drawing.Point(563, 254);
             this.tabs.Name = "tabs";
             this.tabs.Size = new System.Drawing.Size(108, 54);
             this.tabs.TabIndex = 3;
@@ -85,20 +86,32 @@
             // 
             // pnlTasks1
             // 
-            this.pnlTasks1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlTasks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pnlTasks1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlTasks1.Location = new System.Drawing.Point(12, 69);
+            this.pnlTasks1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlTasks1.Location = new System.Drawing.Point(271, 0);
             this.pnlTasks1.Name = "pnlTasks1";
-            this.pnlTasks1.Size = new System.Drawing.Size(1014, 483);
-            this.pnlTasks1.TabIndex = 4;
+            this.pnlTasks1.Size = new System.Drawing.Size(522, 388);
+            this.pnlTasks1.TabIndex = 5;
+            // 
+            // pnlRules1
+            // 
+            this.pnlRules1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pnlRules1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlRules1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlRules1.Location = new System.Drawing.Point(0, 0);
+            this.pnlRules1.Name = "pnlRules1";
+            this.pnlRules1.Size = new System.Drawing.Size(271, 388);
+            this.pnlRules1.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1040, 556);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(793, 388);
             this.Controls.Add(this.pnlTasks1);
+            this.Controls.Add(this.pnlRules1);
             this.Controls.Add(this.tabs);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -112,6 +125,7 @@
         private System.Windows.Forms.Panel tabs;
         private System.Windows.Forms.Button btnTasks;
         private System.Windows.Forms.Button btnRules;
+        private pnlRules pnlRules1;
         private pnlTasks pnlTasks1;
     }
 }
