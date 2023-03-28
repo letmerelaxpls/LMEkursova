@@ -16,19 +16,25 @@ namespace LearningMyEnglish
     {
 
         private Dictionary<Button, Label> buttonLabels = new Dictionary<Button, Label>();
+        
+        
 
         public pnlTasks()
         {
             InitializeComponent();
+            
+            
         }
+        
+        
 
         private void pnlTasks_Load(object sender, EventArgs e)
         {
-            buttonLabels.Add(theme1, thmdesc1);
-            buttonLabels.Add(theme2, thmdesc2);
-            buttonLabels.Add(theme3, thmdesc3);
-            buttonLabels.Add(theme4, thmdesc4);
-            buttonLabels.Add(theme5, thmdesc5);
+            buttonLabels.Add(task1, thmdesc1);
+            buttonLabels.Add(task2, thmdesc2);
+            buttonLabels.Add(task3, thmdesc3);
+            buttonLabels.Add(task4, thmdesc4);
+            buttonLabels.Add(task5, thmdesc5);
 
 
             foreach (var buttonLabel in buttonLabels)
@@ -54,6 +60,22 @@ namespace LearningMyEnglish
             label.Visible = false;
         }
 
-      
+        private void task1_Click(object sender, EventArgs e)
+        {
+            
+            Form form = this.FindForm();
+            if (form != null && form is Form)
+            {
+                foreach (Control control in form.Controls)
+                {
+                    if (control is pnlTasks || control is pnlRules)
+                    {
+                        control.Hide();
+                    }
+                }
+            }
+
+
+        }
     }
 }

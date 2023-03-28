@@ -50,6 +50,7 @@
             this.rule1.TabIndex = 0;
             this.rule1.Text = "Active/Passive voice";
             this.rule1.UseVisualStyleBackColor = false;
+            this.rule1.Click += new System.EventHandler(this.rule1_Click);
             // 
             // rules2
             // 
@@ -139,7 +140,7 @@
             this.Controls.Add(this.rules2);
             this.Controls.Add(this.rule1);
             this.Name = "pnlRules";
-            this.Size = new System.Drawing.Size(269, 554);
+            this.Size = new System.Drawing.Size(269, 508);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

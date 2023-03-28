@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.theme1 = new System.Windows.Forms.Button();
-            this.theme2 = new System.Windows.Forms.Button();
-            this.theme3 = new System.Windows.Forms.Button();
-            this.theme4 = new System.Windows.Forms.Button();
+            this.task1 = new System.Windows.Forms.Button();
+            this.task2 = new System.Windows.Forms.Button();
+            this.task3 = new System.Windows.Forms.Button();
+            this.task4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.thmdesc5 = new System.Windows.Forms.Label();
             this.thmdesc4 = new System.Windows.Forms.Label();
@@ -39,60 +39,61 @@
             this.thmdesc2 = new System.Windows.Forms.Label();
             this.thmdesc1 = new System.Windows.Forms.Label();
             this.thmsDesc = new System.Windows.Forms.Label();
-            this.theme5 = new System.Windows.Forms.Button();
+            this.task5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tsksLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // theme1
+            // task1
             // 
-            this.theme1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.theme1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.theme1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.theme1.Location = new System.Drawing.Point(15, 90);
-            this.theme1.Name = "theme1";
-            this.theme1.Size = new System.Drawing.Size(74, 60);
-            this.theme1.TabIndex = 2;
-            this.theme1.Text = "№1";
-            this.theme1.UseVisualStyleBackColor = false;
+            this.task1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.task1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.task1.Location = new System.Drawing.Point(15, 90);
+            this.task1.Name = "task1";
+            this.task1.Size = new System.Drawing.Size(74, 60);
+            this.task1.TabIndex = 2;
+            this.task1.Text = "№1";
+            this.task1.UseVisualStyleBackColor = false;
+            this.task1.Click += new System.EventHandler(this.task1_Click);
             // 
-            // theme2
+            // task2
             // 
-            this.theme2.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.theme2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.theme2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.theme2.Location = new System.Drawing.Point(117, 90);
-            this.theme2.Name = "theme2";
-            this.theme2.Size = new System.Drawing.Size(74, 60);
-            this.theme2.TabIndex = 4;
-            this.theme2.Text = "№2";
-            this.theme2.UseVisualStyleBackColor = false;
+            this.task2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.task2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.task2.Location = new System.Drawing.Point(117, 90);
+            this.task2.Name = "task2";
+            this.task2.Size = new System.Drawing.Size(74, 60);
+            this.task2.TabIndex = 4;
+            this.task2.Text = "№2";
+            this.task2.UseVisualStyleBackColor = false;
             // 
-            // theme3
+            // task3
             // 
-            this.theme3.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.theme3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.theme3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.theme3.Location = new System.Drawing.Point(222, 90);
-            this.theme3.Name = "theme3";
-            this.theme3.Size = new System.Drawing.Size(74, 60);
-            this.theme3.TabIndex = 5;
-            this.theme3.Text = "№3";
-            this.theme3.UseVisualStyleBackColor = false;
+            this.task3.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.task3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.task3.Location = new System.Drawing.Point(222, 90);
+            this.task3.Name = "task3";
+            this.task3.Size = new System.Drawing.Size(74, 60);
+            this.task3.TabIndex = 5;
+            this.task3.Text = "№3";
+            this.task3.UseVisualStyleBackColor = false;
             // 
-            // theme4
+            // task4
             // 
-            this.theme4.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.theme4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.theme4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.theme4.Location = new System.Drawing.Point(324, 90);
-            this.theme4.Name = "theme4";
-            this.theme4.Size = new System.Drawing.Size(74, 60);
-            this.theme4.TabIndex = 6;
-            this.theme4.Text = "№4";
-            this.theme4.UseVisualStyleBackColor = false;
+            this.task4.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.task4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.task4.Location = new System.Drawing.Point(324, 90);
+            this.task4.Name = "task4";
+            this.task4.Size = new System.Drawing.Size(74, 60);
+            this.task4.TabIndex = 6;
+            this.task4.Text = "№4";
+            this.task4.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -175,17 +176,17 @@
             this.thmsDesc.TabIndex = 8;
             this.thmsDesc.Text = "Опис до завдання:";
             // 
-            // theme5
+            // task5
             // 
-            this.theme5.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.theme5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.theme5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.theme5.Location = new System.Drawing.Point(427, 90);
-            this.theme5.Name = "theme5";
-            this.theme5.Size = new System.Drawing.Size(74, 60);
-            this.theme5.TabIndex = 8;
-            this.theme5.Text = "№5";
-            this.theme5.UseVisualStyleBackColor = false;
+            this.task5.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.task5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.task5.Location = new System.Drawing.Point(427, 90);
+            this.task5.Name = "task5";
+            this.task5.Size = new System.Drawing.Size(74, 60);
+            this.task5.TabIndex = 8;
+            this.task5.Text = "№5";
+            this.task5.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -214,12 +215,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.theme5);
+            this.Controls.Add(this.task5);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.theme4);
-            this.Controls.Add(this.theme3);
-            this.Controls.Add(this.theme2);
-            this.Controls.Add(this.theme1);
+            this.Controls.Add(this.task4);
+            this.Controls.Add(this.task3);
+            this.Controls.Add(this.task2);
+            this.Controls.Add(this.task1);
             this.Name = "pnlTasks";
             this.Size = new System.Drawing.Size(540, 358);
             this.Load += new System.EventHandler(this.pnlTasks_Load);
@@ -233,15 +234,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button theme1;
-        private System.Windows.Forms.Button theme2;
-        private System.Windows.Forms.Button theme3;
-        private System.Windows.Forms.Button theme4;
+        private System.Windows.Forms.Button task1;
+        private System.Windows.Forms.Button task2;
+        private System.Windows.Forms.Button task3;
+        private System.Windows.Forms.Button task4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label thmdesc2;
         private System.Windows.Forms.Label thmdesc1;
         private System.Windows.Forms.Label thmsDesc;
-        private System.Windows.Forms.Button theme5;
+        private System.Windows.Forms.Button task5;
         private System.Windows.Forms.Label thmdesc5;
         private System.Windows.Forms.Label thmdesc4;
         private System.Windows.Forms.Label thmdesc3;

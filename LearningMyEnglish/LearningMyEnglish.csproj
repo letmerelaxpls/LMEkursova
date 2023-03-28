@@ -66,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usrRule1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrRule1.Designer.cs">
+      <DependentUpon>usrRule1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LearningMyEnglish - Tasks.resx">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +91,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="usrRule1.resx">
+      <DependentUpon>usrRule1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -101,6 +110,10 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="images\book.png" />
+    <None Include="images\rule1part1.png" />
+    <None Include="images\rule1part2.png" />
+    <None Include="images\rule1part3.png" />
+    <None Include="images\menu.png" />
     <Content Include="images\tasks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
