@@ -84,6 +84,18 @@
     <Compile Include="usrRule3.Designer.cs">
       <DependentUpon>usrRule3.cs</DependentUpon>
     </Compile>
+    <Compile Include="usrRule4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrRule4.Designer.cs">
+      <DependentUpon>usrRule4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usrRule5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrRule5.Designer.cs">
+      <DependentUpon>usrRule5.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LearningMyEnglish - Tasks.resx">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +123,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="usrRule3.resx">
       <DependentUpon>usrRule3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrRule4.resx">
+      <DependentUpon>usrRule4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrRule5.resx">
+      <DependentUpon>usrRule5.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -153,6 +171,27 @@
     <None Include="images\rule3part10bb.png" />
     <None Include="images\rule3part11b.png" />
     <None Include="images\rule3part11bb.png" />
+    <None Include="images\rule4part1.png" />
+    <None Include="images\rule4part2.png" />
+    <None Include="images\rule4part3.png" />
+    <None Include="images\rule4part4.png" />
+    <None Include="images\rule4part5.png" />
+    <None Include="images\rule4summary.jpg" />
+    <None Include="images\rule5head.png" />
+    <None Include="images\rule5part1.png" />
+    <None Include="images\rule5part2.png" />
+    <None Include="images\rule5part3.png" />
+    <None Include="images\rule5part4.png" />
+    <None Include="images\rule5part5.png" />
+    <None Include="images\rule5part6.png" />
+    <None Include="images\rule5part7.png" />
+    <None Include="images\rule5part8.png" />
+    <None Include="images\rule5part9.png" />
+    <None Include="images\rule5part10.png" />
+    <None Include="images\rule5part11.png" />
+    <None Include="images\rule5part12.png" />
+    <None Include="images\rule5part13.png" />
+    <None Include="images\rule5part14.png" />
     <Content Include="images\tasks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

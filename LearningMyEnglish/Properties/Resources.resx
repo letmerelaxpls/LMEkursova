@@ -124,6 +124,9 @@
   <data name="rule3part7b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part7b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rule4summary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule4summary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rule3part6bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part6bb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,17 +136,35 @@
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rule3part10b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part10b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule4part1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule4part1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rule3part4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rule5part9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rule3part2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rule3part2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rule5head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5head.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule4part2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule4part2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule4part4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule4part4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rule3part1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +178,32 @@
   <data name="rule3part5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rule3part5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rule4part5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule4part5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rule2head" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule2head.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rule5part3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tasks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tasks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule3part3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule3part3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule4part3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule4part3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rule3part6a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part6a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +211,11 @@
   <data name="rule3part7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rule3part8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rule3part8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rule5part4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rule3part11b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part11b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +226,20 @@
   <data name="rule3part9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule3part9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rule3part11bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule3part11bb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rule2text" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule2text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rule5part8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rule1part11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule1part1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,13 +247,22 @@
   <data name="rule1part3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule1part3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rule3part3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rule3part3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rule5part1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule5part6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rule3part8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule3part8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rule1part2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule1part2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rule3part11bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rule3part11bb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rule5part14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule5part14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -123,5 +123,71 @@ namespace LearningMyEnglish
             usrRule3.Location = new Point(1, 1);
             usrRule3.Size = new Size(726, 665);
         }
+
+        private void rules4_Click(object sender, EventArgs e)
+        {
+            // Змінює місце росположення вікна після кліку
+            this.ParentForm.DesktopLocation = new System.Drawing.Point(200, 50);
+            // Змінює макс та мін розмір вікна
+            this.ParentForm.MaximumSize = new Size(945, 745);
+            this.ParentForm.MinimumSize = new Size(945, 745);
+            // Змінює сам розмір вікна
+            this.ResizeFormEvent?.Invoke(945, 745);
+            // Ховає всі інші контроли окрім потрібного
+            Form form = this.FindForm();
+            if (form != null && form is Form)
+            {
+                foreach (Control control in form.Controls)
+                {
+                    if (control is pnlTasks || control is pnlRules)
+                    {
+                        control.Hide();
+                    }
+                    if (control is usrRule4)
+                    {
+                        control.Show();
+                    }
+                }
+            }
+            // Створює новий екземпляр UserControl
+            var usrRule4 = new usrRule4();
+            // Додає UserControl на форму Form1
+            this.ParentForm.Controls.Add(usrRule4);
+            usrRule4.Location = new Point(1, 1);
+            usrRule4.Size = new Size(930, 705);
+        }
+
+        private void rules5_Click(object sender, EventArgs e)
+        {
+            // Змінює місце росположення вікна після кліку
+            this.ParentForm.DesktopLocation = new System.Drawing.Point(200, 50);
+            // Змінює макс та мін розмір вікна
+            this.ParentForm.MaximumSize = new Size(755, 670);
+            this.ParentForm.MinimumSize = new Size(755, 670);
+            // Змінює сам розмір вікна
+            this.ResizeFormEvent?.Invoke(755, 670);
+            // Ховає всі інші контроли окрім потрібного
+            Form form = this.FindForm();
+            if (form != null && form is Form)
+            {
+                foreach (Control control in form.Controls)
+                {
+                    if (control is pnlTasks || control is pnlRules)
+                    {
+                        control.Hide();
+                    }
+                    if (control is usrRule5)
+                    {
+                        control.Show();
+                    }
+                }
+            }
+            // Створює новий екземпляр UserControl
+            var usrRule5 = new usrRule5();
+            // Додає UserControl на форму Form1
+            this.ParentForm.Controls.Add(usrRule5);
+            usrRule5.Location = new Point(1, 1);
+            usrRule5.Size = new Size(740, 630);
+        }
     }
 }

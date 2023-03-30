@@ -14,3 +14,5 @@ C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\ob
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrRule1.resources
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrRule2.resources
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrRule3.resources
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrRule4.resources
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrRule5.resources

@@ -92,6 +92,7 @@
             this.rules4.TabIndex = 3;
             this.rules4.Text = "Infinitive та Gerund";
             this.rules4.UseVisualStyleBackColor = false;
+            this.rules4.Click += new System.EventHandler(this.rules4_Click);
             // 
             // rules5
             // 
@@ -106,6 +107,7 @@
             this.rules5.TabIndex = 4;
             this.rules5.Text = "Indirect speech";
             this.rules5.UseVisualStyleBackColor = false;
+            this.rules5.Click += new System.EventHandler(this.rules5_Click);
             // 
             // rlsLabel
             // 
