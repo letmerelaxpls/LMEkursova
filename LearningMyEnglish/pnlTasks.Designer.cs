@@ -48,7 +48,7 @@
             // 
             // task1
             // 
-            this.task1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task1.BackColor = System.Drawing.Color.LimeGreen;
             this.task1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.task1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.task1.Location = new System.Drawing.Point(15, 90);
@@ -61,7 +61,7 @@
             // 
             // task2
             // 
-            this.task2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task2.BackColor = System.Drawing.Color.LimeGreen;
             this.task2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.task2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.task2.Location = new System.Drawing.Point(117, 90);
@@ -73,7 +73,7 @@
             // 
             // task3
             // 
-            this.task3.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task3.BackColor = System.Drawing.Color.LimeGreen;
             this.task3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.task3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.task3.Location = new System.Drawing.Point(222, 90);
@@ -85,7 +85,7 @@
             // 
             // task4
             // 
-            this.task4.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task4.BackColor = System.Drawing.Color.LimeGreen;
             this.task4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.task4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.task4.Location = new System.Drawing.Point(324, 90);
@@ -97,7 +97,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel1.BackColor = System.Drawing.Color.MintCream;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.thmdesc5);
             this.panel1.Controls.Add(this.thmdesc4);
@@ -178,7 +178,7 @@
             // 
             // task5
             // 
-            this.task5.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.task5.BackColor = System.Drawing.Color.LimeGreen;
             this.task5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.task5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.task5.Location = new System.Drawing.Point(427, 90);
@@ -190,7 +190,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.BackColor = System.Drawing.Color.MintCream;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.tsksLabel);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -213,7 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.task5);
             this.Controls.Add(this.panel1);

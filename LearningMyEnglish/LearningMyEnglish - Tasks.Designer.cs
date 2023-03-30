@@ -37,14 +37,14 @@
             // 
             // pnlTasks1
             // 
-            this.pnlTasks1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnlTasks1.BackColor = System.Drawing.Color.RoyalBlue;
             this.pnlTasks1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.pnlTasks1, "pnlTasks1");
             this.pnlTasks1.Name = "pnlTasks1";
             // 
             // pnlRules1
             // 
-            this.pnlRules1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pnlRules1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.pnlRules1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.pnlRules1, "pnlRules1");
             this.pnlRules1.Name = "pnlRules1";

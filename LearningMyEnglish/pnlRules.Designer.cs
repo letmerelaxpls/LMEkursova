@@ -40,7 +40,7 @@
             // 
             // rule1
             // 
-            this.rule1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.rule1.BackColor = System.Drawing.Color.PaleGreen;
             this.rule1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rule1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rule1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -54,7 +54,7 @@
             // 
             // rules2
             // 
-            this.rules2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.rules2.BackColor = System.Drawing.Color.PaleGreen;
             this.rules2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rules2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rules2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -68,7 +68,7 @@
             // 
             // rules3
             // 
-            this.rules3.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.rules3.BackColor = System.Drawing.Color.PaleGreen;
             this.rules3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rules3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rules3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -82,7 +82,7 @@
             // 
             // rules4
             // 
-            this.rules4.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.rules4.BackColor = System.Drawing.Color.PaleGreen;
             this.rules4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rules4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rules4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -96,7 +96,7 @@
             // 
             // rules5
             // 
-            this.rules5.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.rules5.BackColor = System.Drawing.Color.PaleGreen;
             this.rules5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rules5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rules5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -122,7 +122,7 @@
             // panel1
             // 
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.BackColor = System.Drawing.Color.MintCream;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.rlsLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -135,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.rules5);

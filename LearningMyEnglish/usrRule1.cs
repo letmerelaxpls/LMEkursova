@@ -39,6 +39,7 @@ namespace LearningMyEnglish
             this.ResizeFormEvent?.Invoke(610, 355);
             // Повертає всі контроли окрім цього
             Form form = this.FindForm();
+            form.Text = "Learning My English Menu";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
