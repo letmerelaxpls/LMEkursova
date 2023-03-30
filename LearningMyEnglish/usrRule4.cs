@@ -42,10 +42,8 @@ namespace LearningMyEnglish
             {
                 foreach (Control control in form.Controls)
                 {
-                    if (control is pnlTasks || control is pnlRules)
-                    {
-                        control.Show();
-                    }
+                    control.Show();
+
                     if (control is usrRule4)
                     {
                         control.Hide();
