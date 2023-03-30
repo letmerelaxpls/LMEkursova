@@ -30,11 +30,11 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.backtomenu = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rule1part3 = new System.Windows.Forms.PictureBox();
             this.rule1part2 = new System.Windows.Forms.PictureBox();
             this.rule1part1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rule1part3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part1)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +44,7 @@
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Controls.Add(this.backtomenu);
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.rule1part3);
             this.panel1.Controls.Add(this.rule1part2);
             this.panel1.Controls.Add(this.rule1part1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -55,27 +55,27 @@
             // 
             // backtomenu
             // 
-            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.menu;
+            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
             this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.backtomenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backtomenu.FlatAppearance.BorderSize = 0;
             this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backtomenu.Location = new System.Drawing.Point(964, 13);
+            this.backtomenu.Location = new System.Drawing.Point(973, 12);
             this.backtomenu.Name = "backtomenu";
-            this.backtomenu.Size = new System.Drawing.Size(56, 56);
+            this.backtomenu.Size = new System.Drawing.Size(48, 48);
             this.backtomenu.TabIndex = 3;
             this.backtomenu.UseVisualStyleBackColor = true;
             this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
-            // pictureBox1
+            // rule1part3
             // 
-            this.pictureBox1.Image = global::LearningMyEnglish.Properties.Resources.rule1part3;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 1415);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1026, 707);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.rule1part3.Image = global::LearningMyEnglish.Properties.Resources.rule1part3;
+            this.rule1part3.Location = new System.Drawing.Point(0, 1415);
+            this.rule1part3.Name = "rule1part3";
+            this.rule1part3.Size = new System.Drawing.Size(1026, 707);
+            this.rule1part3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.rule1part3.TabIndex = 2;
+            this.rule1part3.TabStop = false;
             // 
             // rule1part2
             // 
@@ -105,7 +105,7 @@
             this.Name = "usrRule1";
             this.Size = new System.Drawing.Size(1054, 675);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rule1part3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part1)).EndInit();
             this.ResumeLayout(false);
@@ -117,7 +117,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox rule1part2;
         private System.Windows.Forms.PictureBox rule1part1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox rule1part3;
         private System.Windows.Forms.Button backtomenu;
     }
 }

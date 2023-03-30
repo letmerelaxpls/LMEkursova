@@ -64,6 +64,7 @@
             this.rules2.TabIndex = 1;
             this.rules2.Text = "Present Perfect Continuous та Past Perfect Continious";
             this.rules2.UseVisualStyleBackColor = false;
+            this.rules2.Click += new System.EventHandler(this.rules2_Click);
             // 
             // rules3
             // 
@@ -77,6 +78,7 @@
             this.rules3.TabIndex = 2;
             this.rules3.Text = "Conditionals";
             this.rules3.UseVisualStyleBackColor = false;
+            this.rules3.Click += new System.EventHandler(this.rules3_Click);
             // 
             // rules4
             // 

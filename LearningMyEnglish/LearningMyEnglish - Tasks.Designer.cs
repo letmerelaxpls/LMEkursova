@@ -31,16 +31,9 @@
         public void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pnlRules1 = new LearningMyEnglish.pnlRules();
             this.pnlTasks1 = new LearningMyEnglish.pnlTasks();
+            this.pnlRules1 = new LearningMyEnglish.pnlRules();
             this.SuspendLayout();
-            // 
-            // pnlRules1
-            // 
-            this.pnlRules1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pnlRules1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.pnlRules1, "pnlRules1");
-            this.pnlRules1.Name = "pnlRules1";
             // 
             // pnlTasks1
             // 
@@ -48,6 +41,13 @@
             this.pnlTasks1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.pnlTasks1, "pnlTasks1");
             this.pnlTasks1.Name = "pnlTasks1";
+            // 
+            // pnlRules1
+            // 
+            this.pnlRules1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pnlRules1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.pnlRules1, "pnlRules1");
+            this.pnlRules1.Name = "pnlRules1";
             // 
             // Form1
             // 
@@ -62,6 +62,7 @@
         }
 
         #endregion
+
         private pnlRules pnlRules1;
         private pnlTasks pnlTasks1;
     }

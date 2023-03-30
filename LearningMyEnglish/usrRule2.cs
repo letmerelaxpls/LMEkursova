@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace LearningMyEnglish
 {
-    public partial class usrRule1 : UserControl
+    public partial class usrRule2 : UserControl
     {
         public delegate void ResizeFormDelegate(int width, int height);
         public event ResizeFormDelegate ResizeFormEvent;
-        public usrRule1()
+        public usrRule2()
         {
             InitializeComponent();
-            this.ResizeFormEvent += usrRule1_ResizeFormEvent;
+            this.ResizeFormEvent += usrRule2_ResizeFormEvent;
         }
-        private void usrRule1_ResizeFormEvent(int width, int height)
+        private void usrRule2_ResizeFormEvent(int width, int height)
         {
             // Встановлює місце після закриття правила
             this.ParentForm.DesktopLocation = new System.Drawing.Point(500, 250);
@@ -32,7 +32,6 @@ namespace LearningMyEnglish
             this.ParentForm.Width = width;
             this.ParentForm.Height = height;
         }
-
         private void backtomenu_Click(object sender, EventArgs e)
         {
             // Змінює розмір вікна на розмір меню
@@ -47,11 +46,10 @@ namespace LearningMyEnglish
                     {
                         control.Show();
                     }
-                    if (control is usrRule1)
+                    if (control is usrRule2)
                     {
                         control.Hide();
                     }
-                    
                 }
             }
         }

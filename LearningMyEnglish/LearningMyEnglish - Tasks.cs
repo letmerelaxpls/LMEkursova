@@ -17,11 +17,7 @@ namespace LearningMyEnglish
         public Form1()
         {
             InitializeComponent();
-            
-            
         }
-
-        
     }
 }   
 

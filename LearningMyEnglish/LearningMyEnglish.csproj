@@ -72,6 +72,18 @@
     <Compile Include="usrRule1.Designer.cs">
       <DependentUpon>usrRule1.cs</DependentUpon>
     </Compile>
+    <Compile Include="usrRule2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrRule2.Designer.cs">
+      <DependentUpon>usrRule2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usrRule3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrRule3.Designer.cs">
+      <DependentUpon>usrRule3.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LearningMyEnglish - Tasks.resx">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +106,12 @@
     <EmbeddedResource Include="usrRule1.resx">
       <DependentUpon>usrRule1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="usrRule2.resx">
+      <DependentUpon>usrRule2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrRule3.resx">
+      <DependentUpon>usrRule3.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,11 +127,32 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\rule3part6b.png" />
+    <None Include="Resources\rule3part5.png" />
+    <None Include="Resources\rule3part2.png" />
+    <None Include="images\back.png" />
     <Content Include="images\book.png" />
     <None Include="images\rule1part1.png" />
     <None Include="images\rule1part2.png" />
     <None Include="images\rule1part3.png" />
     <None Include="images\menu.png" />
+    <None Include="images\rule2head.png" />
+    <None Include="images\rule2text.png" />
+    <None Include="images\rule3head.png" />
+    <None Include="images\rule3part1.png" />
+    <None Include="images\rule3part3.png" />
+    <None Include="images\rule3part4.png" />
+    <None Include="images\rule3part6a.png" />
+    <None Include="images\rule3part6bb.png" />
+    <None Include="images\rule3part7.png" />
+    <None Include="images\rule3part7b.png" />
+    <None Include="images\rule3part7bb.png" />
+    <None Include="images\rule3part8.png" />
+    <None Include="images\rule3part9.png" />
+    <None Include="images\rule3part10b.png" />
+    <None Include="images\rule3part10bb.png" />
+    <None Include="images\rule3part11b.png" />
+    <None Include="images\rule3part11bb.png" />
     <Content Include="images\tasks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

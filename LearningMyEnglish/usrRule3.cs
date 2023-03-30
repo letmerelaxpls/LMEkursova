@@ -10,24 +10,23 @@ using System.Windows.Forms;
 
 namespace LearningMyEnglish
 {
-    public partial class usrRule1 : UserControl
+    public partial class usrRule3 : UserControl
     {
         public delegate void ResizeFormDelegate(int width, int height);
         public event ResizeFormDelegate ResizeFormEvent;
-        public usrRule1()
+        public usrRule3()
         {
             InitializeComponent();
-            this.ResizeFormEvent += usrRule1_ResizeFormEvent;
+            this.ResizeFormEvent += usrRule3_ResizeFormEvent;
         }
-        private void usrRule1_ResizeFormEvent(int width, int height)
+        private void usrRule3_ResizeFormEvent(int width, int height)
         {
             // Встановлює місце після закриття правила
             this.ParentForm.DesktopLocation = new System.Drawing.Point(500, 250);
-
             // Повертає макс та мін розміри вікна меню
             this.ParentForm.MaximumSize = new Size(610, 355);
             this.ParentForm.MinimumSize = new Size(610, 355);
-            
+
             // Встановлюємо новий розмір форми
             this.ParentForm.Width = width;
             this.ParentForm.Height = height;
@@ -47,11 +46,10 @@ namespace LearningMyEnglish
                     {
                         control.Show();
                     }
-                    if (control is usrRule1)
+                    if (control is usrRule3)
                     {
                         control.Hide();
                     }
-                    
                 }
             }
         }
