@@ -83,6 +83,16 @@ namespace LearningMyEnglish.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap frame1 {
+            get {
+                object obj = ResourceManager.GetObject("frame1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu {
             get {
                 object obj = ResourceManager.GetObject("menu", resourceCulture);
@@ -536,6 +546,36 @@ namespace LearningMyEnglish.Properties {
         internal static System.Drawing.Bitmap rule5part9 {
             get {
                 object obj = ResourceManager.GetObject("rule5part9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap task1vpr1 {
+            get {
+                object obj = ResourceManager.GetObject("task1vpr1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap task1vpr11 {
+            get {
+                object obj = ResourceManager.GetObject("task1vpr11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap task1vpr2 {
+            get {
+                object obj = ResourceManager.GetObject("task1vpr2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.backtomenu = new System.Windows.Forms.Button();
             this.rule3part11bb = new System.Windows.Forms.PictureBox();
             this.rule3part11b = new System.Windows.Forms.PictureBox();
             this.rule3part10bb = new System.Windows.Forms.PictureBox();
@@ -46,7 +47,6 @@
             this.rule3part2 = new System.Windows.Forms.PictureBox();
             this.rule3part1 = new System.Windows.Forms.PictureBox();
             this.rule3head = new System.Windows.Forms.PictureBox();
-            this.backtomenu = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rule3part11bb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule3part11b)).BeginInit();
@@ -94,6 +94,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(941, 705);
             this.panel1.TabIndex = 0;
+            // 
+            // backtomenu
+            // 
+            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
+            this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backtomenu.Location = new System.Drawing.Point(855, 12);
+            this.backtomenu.Name = "backtomenu";
+            this.backtomenu.Size = new System.Drawing.Size(48, 48);
+            this.backtomenu.TabIndex = 17;
+            this.backtomenu.UseVisualStyleBackColor = true;
+            this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
             // rule3part11bb
             // 
@@ -264,19 +276,6 @@
             this.rule3head.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rule3head.TabIndex = 0;
             this.rule3head.TabStop = false;
-            // 
-            // backtomenu
-            // 
-            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
-            this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.backtomenu.FlatAppearance.BorderSize = 0;
-            this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backtomenu.Location = new System.Drawing.Point(855, 12);
-            this.backtomenu.Name = "backtomenu";
-            this.backtomenu.Size = new System.Drawing.Size(48, 48);
-            this.backtomenu.TabIndex = 17;
-            this.backtomenu.UseVisualStyleBackColor = true;
-            this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
             // usrRule3
             // 

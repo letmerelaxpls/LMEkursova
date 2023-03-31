@@ -55,7 +55,6 @@
             this.backtomenu.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
             this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.backtomenu.FlatAppearance.BorderSize = 0;
             this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backtomenu.Location = new System.Drawing.Point(743, 43);
             this.backtomenu.Name = "backtomenu";

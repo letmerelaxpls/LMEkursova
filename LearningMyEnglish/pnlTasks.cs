@@ -14,12 +14,17 @@ namespace LearningMyEnglish
 {
     public partial class pnlTasks : UserControl
     {
+
+        public delegate void ResizeFormDelegate(int width, int height);
+        public event ResizeFormDelegate ResizeFormEvent;
+
         // Список кнопок та лейблів
         private Dictionary<Button, Label> buttonLabels = new Dictionary<Button, Label>();
 
         public pnlTasks()
         {
             InitializeComponent();
+            this.ResizeFormEvent += pnlTasks_ResizeFormEvent;
         }
 
         private void pnlTasks_Load(object sender, EventArgs e)
@@ -55,20 +60,42 @@ namespace LearningMyEnglish
             label.Visible = false;
         }
 
+        private void pnlTasks_ResizeFormEvent(int width, int height)
+        {
+            // Встановлюємо новий розмір форми
+            this.ParentForm.Width = width;
+            this.ParentForm.Height = height;
+        }
+
         private void task1_Click(object sender, EventArgs e)
         {
+            // Змінює місце росположення вікна після кліку
+            this.ParentForm.DesktopLocation = new System.Drawing.Point(400, 150);
+            // Змінює макс та мін розмір вікна
+            this.ParentForm.MaximumSize = new Size(735, 535);
+            this.ParentForm.MinimumSize = new Size(735, 535);
+            // Змінює сам розмір вікна
+            this.ResizeFormEvent?.Invoke(735, 535);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
+            form.Text = "Learning My English Task #1";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
                 {
-                    if (control is pnlTasks || control is pnlRules)
+                    control.Hide();
+                    if(control is usrTask1)
                     {
-                        control.Hide();
+                        control.Show();
                     }
                 }
             }
+            // Створює новий екземпляр UserControl
+            var usrTask1 = new usrTask1();
+            // Додає UserControl на форму Form1
+            this.ParentForm.Controls.Add(usrTask1);
+            usrTask1.Location = new Point(1, 1);
+            usrTask1.Size = new Size(720, 495);
         }
     }
 }

@@ -37,7 +37,7 @@ namespace LearningMyEnglish
             this.ResizeFormEvent?.Invoke(810, 535);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
-            form.Text = "Learning My English Rule 1";
+            form.Text = "Learning My English Rule #1";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
@@ -69,7 +69,7 @@ namespace LearningMyEnglish
             this.ResizeFormEvent?.Invoke(645, 575);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
-            form.Text = "Learning My English Rule 2";
+            form.Text = "Learning My English Rule #2";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
@@ -100,7 +100,7 @@ namespace LearningMyEnglish
             this.ResizeFormEvent?.Invoke(741, 705);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
-            form.Text = "Learning My English Rule 3";
+            form.Text = "Learning My English Rule #3";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
@@ -132,7 +132,7 @@ namespace LearningMyEnglish
             this.ResizeFormEvent?.Invoke(945, 745);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
-            form.Text = "Learning My English Rule 4";
+            form.Text = "Learning My English Rule #4";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
@@ -164,7 +164,7 @@ namespace LearningMyEnglish
             this.ResizeFormEvent?.Invoke(755, 670);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
-            form.Text = "Learning My English Rule 5";
+            form.Text = "Learning My English Rule #5";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
