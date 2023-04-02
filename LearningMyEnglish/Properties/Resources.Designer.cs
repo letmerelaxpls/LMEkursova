@@ -583,6 +583,26 @@ namespace LearningMyEnglish.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap task1vpr3 {
+            get {
+                object obj = ResourceManager.GetObject("task1vpr3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap task1vpr4 {
+            get {
+                object obj = ResourceManager.GetObject("task1vpr4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tasks {
             get {
                 object obj = ResourceManager.GetObject("tasks", resourceCulture);

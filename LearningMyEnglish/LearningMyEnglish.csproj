@@ -204,6 +204,8 @@
     <None Include="images\rule5part14.png" />
     <None Include="images\task1vpr1.png" />
     <None Include="images\task1vpr2.png" />
+    <None Include="images\task1vpr3.png" />
+    <None Include="images\task1vpr4.png" />
     <Content Include="images\tasks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

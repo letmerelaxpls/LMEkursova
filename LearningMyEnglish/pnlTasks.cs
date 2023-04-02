@@ -72,10 +72,10 @@ namespace LearningMyEnglish
             // Змінює місце росположення вікна після кліку
             this.ParentForm.DesktopLocation = new System.Drawing.Point(400, 150);
             // Змінює макс та мін розмір вікна
-            this.ParentForm.MaximumSize = new Size(735, 535);
-            this.ParentForm.MinimumSize = new Size(735, 535);
+            this.ParentForm.MaximumSize = new Size(905, 535);
+            this.ParentForm.MinimumSize = new Size(905, 535);
             // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(735, 535);
+            this.ResizeFormEvent?.Invoke(905, 535);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Task #1";
@@ -95,7 +95,7 @@ namespace LearningMyEnglish
             // Додає UserControl на форму Form1
             this.ParentForm.Controls.Add(usrTask1);
             usrTask1.Location = new Point(1, 1);
-            usrTask1.Size = new Size(720, 495);
+            usrTask1.Size = new Size(890, 495);
         }
     }
 }
