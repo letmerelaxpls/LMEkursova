@@ -70,6 +70,7 @@
             this.task2.TabIndex = 4;
             this.task2.Text = "№2";
             this.task2.UseVisualStyleBackColor = false;
+            this.task2.Click += new System.EventHandler(this.task2_Click);
             // 
             // task3
             // 

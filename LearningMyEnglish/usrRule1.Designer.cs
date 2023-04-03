@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pagepanel = new System.Windows.Forms.Panel();
             this.backtomenu = new System.Windows.Forms.Button();
             this.rule1part3 = new System.Windows.Forms.PictureBox();
             this.rule1part2 = new System.Windows.Forms.PictureBox();
             this.rule1part1 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.pagepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pagepanel
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Controls.Add(this.backtomenu);
-            this.panel1.Controls.Add(this.rule1part3);
-            this.panel1.Controls.Add(this.rule1part2);
-            this.panel1.Controls.Add(this.rule1part1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1054, 675);
-            this.panel1.TabIndex = 0;
+            this.pagepanel.AutoScroll = true;
+            this.pagepanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pagepanel.Controls.Add(this.backtomenu);
+            this.pagepanel.Controls.Add(this.rule1part3);
+            this.pagepanel.Controls.Add(this.rule1part2);
+            this.pagepanel.Controls.Add(this.rule1part1);
+            this.pagepanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pagepanel.Location = new System.Drawing.Point(0, 0);
+            this.pagepanel.Name = "pagepanel";
+            this.pagepanel.Size = new System.Drawing.Size(1054, 675);
+            this.pagepanel.TabIndex = 0;
             // 
             // backtomenu
             // 
@@ -100,10 +100,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pagepanel);
             this.Name = "usrRule1";
             this.Size = new System.Drawing.Size(1054, 675);
-            this.panel1.ResumeLayout(false);
+            this.pagepanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.rule1part3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule1part1)).EndInit();
@@ -113,7 +113,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pagepanel;
         private System.Windows.Forms.PictureBox rule1part2;
         private System.Windows.Forms.PictureBox rule1part1;
         private System.Windows.Forms.PictureBox rule1part3;

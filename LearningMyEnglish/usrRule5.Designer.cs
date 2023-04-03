@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pagepanel = new System.Windows.Forms.Panel();
+            this.backtomenu = new System.Windows.Forms.Button();
             this.rule5part14 = new System.Windows.Forms.PictureBox();
             this.rule5part13 = new System.Windows.Forms.PictureBox();
             this.rule5part12 = new System.Windows.Forms.PictureBox();
@@ -44,8 +45,7 @@
             this.rule5part2 = new System.Windows.Forms.PictureBox();
             this.rule5part1 = new System.Windows.Forms.PictureBox();
             this.rule5head = new System.Windows.Forms.PictureBox();
-            this.backtomenu = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.pagepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rule5part14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule5part13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule5part12)).BeginInit();
@@ -63,31 +63,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.rule5head)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pagepanel
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Controls.Add(this.backtomenu);
-            this.panel1.Controls.Add(this.rule5part14);
-            this.panel1.Controls.Add(this.rule5part13);
-            this.panel1.Controls.Add(this.rule5part12);
-            this.panel1.Controls.Add(this.rule5part11);
-            this.panel1.Controls.Add(this.rule5part10);
-            this.panel1.Controls.Add(this.rule5part9);
-            this.panel1.Controls.Add(this.rule5part8);
-            this.panel1.Controls.Add(this.rule5part7);
-            this.panel1.Controls.Add(this.rule5part6);
-            this.panel1.Controls.Add(this.rule5part5);
-            this.panel1.Controls.Add(this.rule5part4);
-            this.panel1.Controls.Add(this.rule5part3);
-            this.panel1.Controls.Add(this.rule5part2);
-            this.panel1.Controls.Add(this.rule5part1);
-            this.panel1.Controls.Add(this.rule5head);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(940, 630);
-            this.panel1.TabIndex = 0;
+            this.pagepanel.AutoScroll = true;
+            this.pagepanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pagepanel.Controls.Add(this.backtomenu);
+            this.pagepanel.Controls.Add(this.rule5part14);
+            this.pagepanel.Controls.Add(this.rule5part13);
+            this.pagepanel.Controls.Add(this.rule5part12);
+            this.pagepanel.Controls.Add(this.rule5part11);
+            this.pagepanel.Controls.Add(this.rule5part10);
+            this.pagepanel.Controls.Add(this.rule5part9);
+            this.pagepanel.Controls.Add(this.rule5part8);
+            this.pagepanel.Controls.Add(this.rule5part7);
+            this.pagepanel.Controls.Add(this.rule5part6);
+            this.pagepanel.Controls.Add(this.rule5part5);
+            this.pagepanel.Controls.Add(this.rule5part4);
+            this.pagepanel.Controls.Add(this.rule5part3);
+            this.pagepanel.Controls.Add(this.rule5part2);
+            this.pagepanel.Controls.Add(this.rule5part1);
+            this.pagepanel.Controls.Add(this.rule5head);
+            this.pagepanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pagepanel.Location = new System.Drawing.Point(0, 0);
+            this.pagepanel.Name = "pagepanel";
+            this.pagepanel.Size = new System.Drawing.Size(940, 630);
+            this.pagepanel.TabIndex = 0;
+            // 
+            // backtomenu
+            // 
+            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
+            this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backtomenu.Location = new System.Drawing.Point(859, 12);
+            this.backtomenu.Name = "backtomenu";
+            this.backtomenu.Size = new System.Drawing.Size(48, 48);
+            this.backtomenu.TabIndex = 17;
+            this.backtomenu.UseVisualStyleBackColor = true;
+            this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
             // rule5part14
             // 
@@ -239,26 +251,14 @@
             this.rule5head.TabIndex = 0;
             this.rule5head.TabStop = false;
             // 
-            // backtomenu
-            // 
-            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
-            this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backtomenu.Location = new System.Drawing.Point(859, 12);
-            this.backtomenu.Name = "backtomenu";
-            this.backtomenu.Size = new System.Drawing.Size(48, 48);
-            this.backtomenu.TabIndex = 17;
-            this.backtomenu.UseVisualStyleBackColor = true;
-            this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
-            // 
             // usrRule5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pagepanel);
             this.Name = "usrRule5";
             this.Size = new System.Drawing.Size(940, 630);
-            this.panel1.ResumeLayout(false);
+            this.pagepanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.rule5part14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule5part13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule5part12)).EndInit();
@@ -280,7 +280,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pagepanel;
         private System.Windows.Forms.PictureBox rule5head;
         private System.Windows.Forms.PictureBox rule5part1;
         private System.Windows.Forms.PictureBox rule5part2;

@@ -102,6 +102,12 @@
     <Compile Include="usrTask1.Designer.cs">
       <DependentUpon>usrTask1.cs</DependentUpon>
     </Compile>
+    <Compile Include="usrTask2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrTask2.Designer.cs">
+      <DependentUpon>usrTask2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LearningMyEnglish - Tasks.resx">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="usrTask1.resx">
       <DependentUpon>usrTask1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrTask2.resx">
+      <DependentUpon>usrTask2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -206,6 +215,11 @@
     <None Include="images\task1vpr2.png" />
     <None Include="images\task1vpr3.png" />
     <None Include="images\task1vpr4.png" />
+    <None Include="images\task2ex1.png" />
+    <None Include="images\task2ex2.png" />
+    <None Include="images\task2ex3.png" />
+    <None Include="images\task2ex4.png" />
+    <None Include="images\task2ex5.png" />
     <Content Include="images\tasks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pagepanel = new System.Windows.Forms.Panel();
             this.backtomenu = new System.Windows.Forms.Button();
             this.rule3part11bb = new System.Windows.Forms.PictureBox();
             this.rule3part11b = new System.Windows.Forms.PictureBox();
@@ -47,7 +47,7 @@
             this.rule3part2 = new System.Windows.Forms.PictureBox();
             this.rule3part1 = new System.Windows.Forms.PictureBox();
             this.rule3head = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.pagepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rule3part11bb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule3part11b)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule3part10bb)).BeginInit();
@@ -67,33 +67,33 @@
             ((System.ComponentModel.ISupportInitialize)(this.rule3head)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pagepanel
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Controls.Add(this.backtomenu);
-            this.panel1.Controls.Add(this.rule3part11bb);
-            this.panel1.Controls.Add(this.rule3part11b);
-            this.panel1.Controls.Add(this.rule3part10bb);
-            this.panel1.Controls.Add(this.rule3part10b);
-            this.panel1.Controls.Add(this.rule3part9);
-            this.panel1.Controls.Add(this.rule3part8);
-            this.panel1.Controls.Add(this.rule3part7bb);
-            this.panel1.Controls.Add(this.rule3part7b);
-            this.panel1.Controls.Add(this.rule3part7);
-            this.panel1.Controls.Add(this.rule3part6bb);
-            this.panel1.Controls.Add(this.rule3part6b);
-            this.panel1.Controls.Add(this.rule3part5);
-            this.panel1.Controls.Add(this.rule3part4);
-            this.panel1.Controls.Add(this.rule3part3);
-            this.panel1.Controls.Add(this.rule3part2);
-            this.panel1.Controls.Add(this.rule3part1);
-            this.panel1.Controls.Add(this.rule3head);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(941, 705);
-            this.panel1.TabIndex = 0;
+            this.pagepanel.AutoScroll = true;
+            this.pagepanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pagepanel.Controls.Add(this.backtomenu);
+            this.pagepanel.Controls.Add(this.rule3part11bb);
+            this.pagepanel.Controls.Add(this.rule3part11b);
+            this.pagepanel.Controls.Add(this.rule3part10bb);
+            this.pagepanel.Controls.Add(this.rule3part10b);
+            this.pagepanel.Controls.Add(this.rule3part9);
+            this.pagepanel.Controls.Add(this.rule3part8);
+            this.pagepanel.Controls.Add(this.rule3part7bb);
+            this.pagepanel.Controls.Add(this.rule3part7b);
+            this.pagepanel.Controls.Add(this.rule3part7);
+            this.pagepanel.Controls.Add(this.rule3part6bb);
+            this.pagepanel.Controls.Add(this.rule3part6b);
+            this.pagepanel.Controls.Add(this.rule3part5);
+            this.pagepanel.Controls.Add(this.rule3part4);
+            this.pagepanel.Controls.Add(this.rule3part3);
+            this.pagepanel.Controls.Add(this.rule3part2);
+            this.pagepanel.Controls.Add(this.rule3part1);
+            this.pagepanel.Controls.Add(this.rule3head);
+            this.pagepanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pagepanel.Location = new System.Drawing.Point(0, 0);
+            this.pagepanel.Name = "pagepanel";
+            this.pagepanel.Size = new System.Drawing.Size(941, 705);
+            this.pagepanel.TabIndex = 0;
             // 
             // backtomenu
             // 
@@ -281,10 +281,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pagepanel);
             this.Name = "usrRule3";
             this.Size = new System.Drawing.Size(941, 705);
-            this.panel1.ResumeLayout(false);
+            this.pagepanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.rule3part11bb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule3part11b)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rule3part10bb)).EndInit();
@@ -308,7 +308,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pagepanel;
         private System.Windows.Forms.PictureBox rule3head;
         private System.Windows.Forms.PictureBox rule3part1;
         private System.Windows.Forms.PictureBox rule3part2;

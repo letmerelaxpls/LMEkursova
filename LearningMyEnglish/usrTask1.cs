@@ -129,7 +129,7 @@ namespace LearningMyEnglish
         private void check2_Click(object sender, EventArgs e)
         {
 
-            double vpr2points = 0;
+            int vpr2points = 0;
             // Додача балів до правильних відповідей
             if (ex2n1ans.Text == "saw") vpr2points += 10;
             else
@@ -233,13 +233,12 @@ namespace LearningMyEnglish
         private void check3_Click(object sender, EventArgs e)
         {
 
-            double vpr3points = 0;
+            int vpr3points = 0;
             // Додача балів до правильних відповідей
             if (ex3n1ans.Text == "was answered") vpr3points += 5;
             else
             {
                 ex3ans1.Text = "was answered";
-                ex3ans1.ForeColor = Color.LimeGreen;
                 ex3ans1.BorderStyle = BorderStyle.FixedSingle;
                 ex3n1ans.ForeColor = Color.Red;
             }
@@ -248,7 +247,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans2.Text = "is played";
-                ex3ans2.ForeColor = Color.LimeGreen;
                 ex3ans2.BorderStyle = BorderStyle.FixedSingle;
                 ex3n2ans.ForeColor = Color.Red;
             }
@@ -257,7 +255,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans3.Text = "are gathered";
-                ex3ans3.ForeColor = Color.LimeGreen;
                 ex3ans3.BorderStyle = BorderStyle.FixedSingle;
                 ex3n3ans.ForeColor = Color.Red;
             }
@@ -266,7 +263,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans4.Text = "were burnt";
-                ex3ans4.ForeColor = Color.LimeGreen;
                 ex3ans4.BorderStyle = BorderStyle.FixedSingle;
                 ex3n4ans.ForeColor = Color.Red;
             }
@@ -275,7 +271,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans5.Text = "will be finished";
-                ex3ans5.ForeColor = Color.LimeGreen;
                 ex3ans5.BorderStyle = BorderStyle.FixedSingle;
                 ex3n5ans.ForeColor = Color.Red;
             }
@@ -284,7 +279,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans6.Text = "are sold";
-                ex3ans6.ForeColor = Color.LimeGreen;
                 ex3ans6.BorderStyle = BorderStyle.FixedSingle;
                 ex3n6ans.ForeColor = Color.Red;
             }
@@ -293,7 +287,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans7.Text = "is eaten";
-                ex3ans7.ForeColor = Color.LimeGreen;
                 ex3ans7.BorderStyle = BorderStyle.FixedSingle;
                 ex3n7ans.ForeColor = Color.Red;
             }
@@ -302,7 +295,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans8.Text = "was received";
-                ex3ans8.ForeColor = Color.LimeGreen;
                 ex3ans8.BorderStyle = BorderStyle.FixedSingle;
                 ex3n8ans.ForeColor = Color.Red;
             }
@@ -311,7 +303,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans9.Text = "will be sent";
-                ex3ans9.ForeColor = Color.LimeGreen;
                 ex3ans9.BorderStyle = BorderStyle.FixedSingle;
                 ex3n9ans.ForeColor = Color.Red;
             }
@@ -320,7 +311,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans10.Text = "was asked";
-                ex3ans10.ForeColor = Color.LimeGreen;
                 ex3ans10.BorderStyle = BorderStyle.FixedSingle;
                 ex3n10ans.ForeColor = Color.Red;
             }
@@ -329,7 +319,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans11.Text = "was given";
-                ex3ans11.ForeColor = Color.LimeGreen;
                 ex3ans11.BorderStyle = BorderStyle.FixedSingle;
                 ex3n11ans.ForeColor = Color.Red;
             }
@@ -338,7 +327,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans12.Text = "are built";
-                ex3ans12.ForeColor = Color.LimeGreen;
                 ex3ans12.BorderStyle = BorderStyle.FixedSingle;
                 ex3n12ans.ForeColor = Color.Red;
             }
@@ -347,7 +335,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans13.Text = "will be done";
-                ex3ans13.ForeColor = Color.LimeGreen;
                 ex3ans13.BorderStyle = BorderStyle.FixedSingle;
                 ex3n13ans.ForeColor = Color.Red;
             }
@@ -356,7 +343,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans14.Text = "was translated";
-                ex3ans14.ForeColor = Color.LimeGreen;
                 ex3ans14.BorderStyle = BorderStyle.FixedSingle;
                 ex3n14ans.ForeColor = Color.Red;
             }
@@ -365,7 +351,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans15.Text = "were planted";
-                ex3ans15.ForeColor = Color.LimeGreen;
                 ex3ans15.BorderStyle = BorderStyle.FixedSingle;
                 ex3n15ans.ForeColor = Color.Red;
             }
@@ -374,7 +359,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans16.Text = "are always played";
-                ex3ans16.ForeColor = Color.LimeGreen;
                 ex3ans16.BorderStyle = BorderStyle.FixedSingle;
                 ex3n16ans.ForeColor = Color.Red;
             }
@@ -383,7 +367,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans17.Text = "will be given";
-                ex3ans17.ForeColor = Color.LimeGreen;
                 ex3ans17.BorderStyle = BorderStyle.FixedSingle;
                 ex3n17ans.ForeColor = Color.Red;
             }
@@ -392,7 +375,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans18.Text = "were invited";
-                ex3ans18.ForeColor = Color.LimeGreen;
                 ex3ans18.BorderStyle = BorderStyle.FixedSingle;
                 ex3n18ans.ForeColor = Color.Red;
             }
@@ -401,7 +383,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans19.Text = "is never found OR was never found";
-                ex3ans19.ForeColor = Color.LimeGreen;
                 ex3ans19.BorderStyle = BorderStyle.FixedSingle;
                 ex3n19ans.ForeColor = Color.Red;
             }
@@ -410,7 +391,6 @@ namespace LearningMyEnglish
             else
             {
                 ex3ans20.Text = "was not built OR wasn`t built";
-                ex3ans20.ForeColor = Color.LimeGreen;
                 ex3ans20.BorderStyle = BorderStyle.FixedSingle;
                 ex3n20ans.ForeColor = Color.Red;
             }

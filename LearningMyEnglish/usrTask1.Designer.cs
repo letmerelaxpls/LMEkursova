@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pagepanel = new System.Windows.Forms.Panel();
+            this.ex2ans10 = new System.Windows.Forms.Label();
+            this.ex2ans9 = new System.Windows.Forms.Label();
+            this.ex2ans8 = new System.Windows.Forms.Label();
+            this.ex2ans7 = new System.Windows.Forms.Label();
+            this.ex2ans6 = new System.Windows.Forms.Label();
+            this.ex2ans5 = new System.Windows.Forms.Label();
+            this.ex2ans4 = new System.Windows.Forms.Label();
+            this.ex2ans3 = new System.Windows.Forms.Label();
+            this.ex2ans2 = new System.Windows.Forms.Label();
+            this.ex2ans1 = new System.Windows.Forms.Label();
             this.ex3ans20 = new System.Windows.Forms.Label();
             this.ex3ans19 = new System.Windows.Forms.Label();
             this.ex3ans18 = new System.Windows.Forms.Label();
@@ -129,18 +139,8 @@
             this.n1v1 = new System.Windows.Forms.RadioButton();
             this.n1v2 = new System.Windows.Forms.RadioButton();
             this.task1ex1 = new System.Windows.Forms.PictureBox();
-            this.ex2ans1 = new System.Windows.Forms.Label();
-            this.ex2ans2 = new System.Windows.Forms.Label();
-            this.ex2ans3 = new System.Windows.Forms.Label();
-            this.ex2ans4 = new System.Windows.Forms.Label();
-            this.ex2ans5 = new System.Windows.Forms.Label();
-            this.ex2ans6 = new System.Windows.Forms.Label();
-            this.ex2ans7 = new System.Windows.Forms.Label();
-            this.ex2ans8 = new System.Windows.Forms.Label();
-            this.ex2ans9 = new System.Windows.Forms.Label();
-            this.ex2ans10 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.pagepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.task1ex4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.task1ex3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.task1ex2)).BeginInit();
@@ -155,116 +155,237 @@
             ((System.ComponentModel.ISupportInitialize)(this.task1ex1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pagepanel
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.panel1.Controls.Add(this.ex2ans10);
-            this.panel1.Controls.Add(this.ex2ans9);
-            this.panel1.Controls.Add(this.ex2ans8);
-            this.panel1.Controls.Add(this.ex2ans7);
-            this.panel1.Controls.Add(this.ex2ans6);
-            this.panel1.Controls.Add(this.ex2ans5);
-            this.panel1.Controls.Add(this.ex2ans4);
-            this.panel1.Controls.Add(this.ex2ans3);
-            this.panel1.Controls.Add(this.ex2ans2);
-            this.panel1.Controls.Add(this.ex2ans1);
-            this.panel1.Controls.Add(this.ex3ans20);
-            this.panel1.Controls.Add(this.ex3ans19);
-            this.panel1.Controls.Add(this.ex3ans18);
-            this.panel1.Controls.Add(this.ex3ans17);
-            this.panel1.Controls.Add(this.ex3ans16);
-            this.panel1.Controls.Add(this.ex3ans15);
-            this.panel1.Controls.Add(this.ex3ans14);
-            this.panel1.Controls.Add(this.ex3ans13);
-            this.panel1.Controls.Add(this.ex3ans12);
-            this.panel1.Controls.Add(this.ex3ans11);
-            this.panel1.Controls.Add(this.ex3ans10);
-            this.panel1.Controls.Add(this.ex3ans9);
-            this.panel1.Controls.Add(this.ex3ans8);
-            this.panel1.Controls.Add(this.ex3ans7);
-            this.panel1.Controls.Add(this.ex3ans6);
-            this.panel1.Controls.Add(this.ex3ans5);
-            this.panel1.Controls.Add(this.ex3ans4);
-            this.panel1.Controls.Add(this.ex3ans3);
-            this.panel1.Controls.Add(this.ex3ans2);
-            this.panel1.Controls.Add(this.ex3ans1);
-            this.panel1.Controls.Add(this.ex4answers);
-            this.panel1.Controls.Add(this.pointscheck4);
-            this.panel1.Controls.Add(this.check4);
-            this.panel1.Controls.Add(this.ex4n12ans);
-            this.panel1.Controls.Add(this.ex4n11ans);
-            this.panel1.Controls.Add(this.ex4n10ans);
-            this.panel1.Controls.Add(this.ex4n9ans);
-            this.panel1.Controls.Add(this.ex4n8ans);
-            this.panel1.Controls.Add(this.ex4n7ans);
-            this.panel1.Controls.Add(this.ex4n6ans);
-            this.panel1.Controls.Add(this.ex4n5ans);
-            this.panel1.Controls.Add(this.ex4n4ans);
-            this.panel1.Controls.Add(this.ex4n3ans);
-            this.panel1.Controls.Add(this.ex4n2ans);
-            this.panel1.Controls.Add(this.ex4n1ans);
-            this.panel1.Controls.Add(this.task1ex4);
-            this.panel1.Controls.Add(this.pointscheck3);
-            this.panel1.Controls.Add(this.check3);
-            this.panel1.Controls.Add(this.ex3n20ans);
-            this.panel1.Controls.Add(this.ex3n19ans);
-            this.panel1.Controls.Add(this.ex3n18ans);
-            this.panel1.Controls.Add(this.ex3n17ans);
-            this.panel1.Controls.Add(this.ex3n16ans);
-            this.panel1.Controls.Add(this.ex3n15ans);
-            this.panel1.Controls.Add(this.ex3n14ans);
-            this.panel1.Controls.Add(this.ex3n13ans);
-            this.panel1.Controls.Add(this.ex3n12ans);
-            this.panel1.Controls.Add(this.ex3n11ans);
-            this.panel1.Controls.Add(this.ex3n10ans);
-            this.panel1.Controls.Add(this.ex3n9ans);
-            this.panel1.Controls.Add(this.ex3n8ans);
-            this.panel1.Controls.Add(this.ex3n7ans);
-            this.panel1.Controls.Add(this.ex3n6ans);
-            this.panel1.Controls.Add(this.ex3n5ans);
-            this.panel1.Controls.Add(this.ex3n4ans);
-            this.panel1.Controls.Add(this.ex3n3ans);
-            this.panel1.Controls.Add(this.ex3n2ans);
-            this.panel1.Controls.Add(this.ex3n1ans);
-            this.panel1.Controls.Add(this.task1ex3);
-            this.panel1.Controls.Add(this.backtomenu);
-            this.panel1.Controls.Add(this.ex2n10ans);
-            this.panel1.Controls.Add(this.ex2n9ans);
-            this.panel1.Controls.Add(this.ex2n8ans);
-            this.panel1.Controls.Add(this.ex2n7ans);
-            this.panel1.Controls.Add(this.ex2n6ans);
-            this.panel1.Controls.Add(this.ex2n5ans);
-            this.panel1.Controls.Add(this.ex2n4ans);
-            this.panel1.Controls.Add(this.ex2n3ans);
-            this.panel1.Controls.Add(this.ex2n2ans);
-            this.panel1.Controls.Add(this.pointscheck2);
-            this.panel1.Controls.Add(this.ex2n1ans);
-            this.panel1.Controls.Add(this.check2);
-            this.panel1.Controls.Add(this.task1ex2);
-            this.panel1.Controls.Add(this.pointscheck1);
-            this.panel1.Controls.Add(this.check1);
-            this.panel1.Controls.Add(this.num7);
-            this.panel1.Controls.Add(this.num6);
-            this.panel1.Controls.Add(this.num8);
-            this.panel1.Controls.Add(this.num5);
-            this.panel1.Controls.Add(this.num4);
-            this.panel1.Controls.Add(this.num3);
-            this.panel1.Controls.Add(this.num2);
-            this.panel1.Controls.Add(this.num1);
-            this.panel1.Controls.Add(this.task1ex1);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1203, 610);
-            this.panel1.TabIndex = 0;
+            this.pagepanel.AutoScroll = true;
+            this.pagepanel.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.pagepanel.Controls.Add(this.ex2ans10);
+            this.pagepanel.Controls.Add(this.ex2ans9);
+            this.pagepanel.Controls.Add(this.ex2ans8);
+            this.pagepanel.Controls.Add(this.ex2ans7);
+            this.pagepanel.Controls.Add(this.ex2ans6);
+            this.pagepanel.Controls.Add(this.ex2ans5);
+            this.pagepanel.Controls.Add(this.ex2ans4);
+            this.pagepanel.Controls.Add(this.ex2ans3);
+            this.pagepanel.Controls.Add(this.ex2ans2);
+            this.pagepanel.Controls.Add(this.ex2ans1);
+            this.pagepanel.Controls.Add(this.ex3ans20);
+            this.pagepanel.Controls.Add(this.ex3ans19);
+            this.pagepanel.Controls.Add(this.ex3ans18);
+            this.pagepanel.Controls.Add(this.ex3ans17);
+            this.pagepanel.Controls.Add(this.ex3ans16);
+            this.pagepanel.Controls.Add(this.ex3ans15);
+            this.pagepanel.Controls.Add(this.ex3ans14);
+            this.pagepanel.Controls.Add(this.ex3ans13);
+            this.pagepanel.Controls.Add(this.ex3ans12);
+            this.pagepanel.Controls.Add(this.ex3ans11);
+            this.pagepanel.Controls.Add(this.ex3ans10);
+            this.pagepanel.Controls.Add(this.ex3ans9);
+            this.pagepanel.Controls.Add(this.ex3ans8);
+            this.pagepanel.Controls.Add(this.ex3ans7);
+            this.pagepanel.Controls.Add(this.ex3ans6);
+            this.pagepanel.Controls.Add(this.ex3ans5);
+            this.pagepanel.Controls.Add(this.ex3ans4);
+            this.pagepanel.Controls.Add(this.ex3ans3);
+            this.pagepanel.Controls.Add(this.ex3ans2);
+            this.pagepanel.Controls.Add(this.ex3ans1);
+            this.pagepanel.Controls.Add(this.ex4answers);
+            this.pagepanel.Controls.Add(this.pointscheck4);
+            this.pagepanel.Controls.Add(this.check4);
+            this.pagepanel.Controls.Add(this.ex4n12ans);
+            this.pagepanel.Controls.Add(this.ex4n11ans);
+            this.pagepanel.Controls.Add(this.ex4n10ans);
+            this.pagepanel.Controls.Add(this.ex4n9ans);
+            this.pagepanel.Controls.Add(this.ex4n8ans);
+            this.pagepanel.Controls.Add(this.ex4n7ans);
+            this.pagepanel.Controls.Add(this.ex4n6ans);
+            this.pagepanel.Controls.Add(this.ex4n5ans);
+            this.pagepanel.Controls.Add(this.ex4n4ans);
+            this.pagepanel.Controls.Add(this.ex4n3ans);
+            this.pagepanel.Controls.Add(this.ex4n2ans);
+            this.pagepanel.Controls.Add(this.ex4n1ans);
+            this.pagepanel.Controls.Add(this.task1ex4);
+            this.pagepanel.Controls.Add(this.pointscheck3);
+            this.pagepanel.Controls.Add(this.check3);
+            this.pagepanel.Controls.Add(this.ex3n20ans);
+            this.pagepanel.Controls.Add(this.ex3n19ans);
+            this.pagepanel.Controls.Add(this.ex3n18ans);
+            this.pagepanel.Controls.Add(this.ex3n17ans);
+            this.pagepanel.Controls.Add(this.ex3n16ans);
+            this.pagepanel.Controls.Add(this.ex3n15ans);
+            this.pagepanel.Controls.Add(this.ex3n14ans);
+            this.pagepanel.Controls.Add(this.ex3n13ans);
+            this.pagepanel.Controls.Add(this.ex3n12ans);
+            this.pagepanel.Controls.Add(this.ex3n11ans);
+            this.pagepanel.Controls.Add(this.ex3n10ans);
+            this.pagepanel.Controls.Add(this.ex3n9ans);
+            this.pagepanel.Controls.Add(this.ex3n8ans);
+            this.pagepanel.Controls.Add(this.ex3n7ans);
+            this.pagepanel.Controls.Add(this.ex3n6ans);
+            this.pagepanel.Controls.Add(this.ex3n5ans);
+            this.pagepanel.Controls.Add(this.ex3n4ans);
+            this.pagepanel.Controls.Add(this.ex3n3ans);
+            this.pagepanel.Controls.Add(this.ex3n2ans);
+            this.pagepanel.Controls.Add(this.ex3n1ans);
+            this.pagepanel.Controls.Add(this.task1ex3);
+            this.pagepanel.Controls.Add(this.backtomenu);
+            this.pagepanel.Controls.Add(this.ex2n10ans);
+            this.pagepanel.Controls.Add(this.ex2n9ans);
+            this.pagepanel.Controls.Add(this.ex2n8ans);
+            this.pagepanel.Controls.Add(this.ex2n7ans);
+            this.pagepanel.Controls.Add(this.ex2n6ans);
+            this.pagepanel.Controls.Add(this.ex2n5ans);
+            this.pagepanel.Controls.Add(this.ex2n4ans);
+            this.pagepanel.Controls.Add(this.ex2n3ans);
+            this.pagepanel.Controls.Add(this.ex2n2ans);
+            this.pagepanel.Controls.Add(this.pointscheck2);
+            this.pagepanel.Controls.Add(this.ex2n1ans);
+            this.pagepanel.Controls.Add(this.check2);
+            this.pagepanel.Controls.Add(this.task1ex2);
+            this.pagepanel.Controls.Add(this.pointscheck1);
+            this.pagepanel.Controls.Add(this.check1);
+            this.pagepanel.Controls.Add(this.num7);
+            this.pagepanel.Controls.Add(this.num6);
+            this.pagepanel.Controls.Add(this.num8);
+            this.pagepanel.Controls.Add(this.num5);
+            this.pagepanel.Controls.Add(this.num4);
+            this.pagepanel.Controls.Add(this.num3);
+            this.pagepanel.Controls.Add(this.num2);
+            this.pagepanel.Controls.Add(this.num1);
+            this.pagepanel.Controls.Add(this.task1ex1);
+            this.pagepanel.Controls.Add(this.panel2);
+            this.pagepanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pagepanel.Location = new System.Drawing.Point(0, 0);
+            this.pagepanel.Name = "pagepanel";
+            this.pagepanel.Size = new System.Drawing.Size(1203, 610);
+            this.pagepanel.TabIndex = 0;
+            // 
+            // ex2ans10
+            // 
+            this.ex2ans10.AutoSize = true;
+            this.ex2ans10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans10.Location = new System.Drawing.Point(553, 878);
+            this.ex2ans10.MinimumSize = new System.Drawing.Size(100, 0);
+            this.ex2ans10.Name = "ex2ans10";
+            this.ex2ans10.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans10.Size = new System.Drawing.Size(100, 26);
+            this.ex2ans10.TabIndex = 87;
+            // 
+            // ex2ans9
+            // 
+            this.ex2ans9.AutoSize = true;
+            this.ex2ans9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans9.Location = new System.Drawing.Point(631, 843);
+            this.ex2ans9.MinimumSize = new System.Drawing.Size(30, 0);
+            this.ex2ans9.Name = "ex2ans9";
+            this.ex2ans9.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans9.Size = new System.Drawing.Size(30, 26);
+            this.ex2ans9.TabIndex = 86;
+            // 
+            // ex2ans8
+            // 
+            this.ex2ans8.AutoSize = true;
+            this.ex2ans8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans8.Location = new System.Drawing.Point(490, 808);
+            this.ex2ans8.MinimumSize = new System.Drawing.Size(30, 0);
+            this.ex2ans8.Name = "ex2ans8";
+            this.ex2ans8.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans8.Size = new System.Drawing.Size(30, 26);
+            this.ex2ans8.TabIndex = 85;
+            // 
+            // ex2ans7
+            // 
+            this.ex2ans7.AutoSize = true;
+            this.ex2ans7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans7.Location = new System.Drawing.Point(754, 775);
+            this.ex2ans7.MinimumSize = new System.Drawing.Size(100, 0);
+            this.ex2ans7.Name = "ex2ans7";
+            this.ex2ans7.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans7.Size = new System.Drawing.Size(100, 26);
+            this.ex2ans7.TabIndex = 84;
+            // 
+            // ex2ans6
+            // 
+            this.ex2ans6.AutoSize = true;
+            this.ex2ans6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans6.Location = new System.Drawing.Point(857, 742);
+            this.ex2ans6.MinimumSize = new System.Drawing.Size(30, 0);
+            this.ex2ans6.Name = "ex2ans6";
+            this.ex2ans6.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans6.Size = new System.Drawing.Size(30, 26);
+            this.ex2ans6.TabIndex = 83;
+            // 
+            // ex2ans5
+            // 
+            this.ex2ans5.AutoSize = true;
+            this.ex2ans5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans5.Location = new System.Drawing.Point(883, 706);
+            this.ex2ans5.MinimumSize = new System.Drawing.Size(30, 0);
+            this.ex2ans5.Name = "ex2ans5";
+            this.ex2ans5.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans5.Size = new System.Drawing.Size(30, 26);
+            this.ex2ans5.TabIndex = 82;
+            // 
+            // ex2ans4
+            // 
+            this.ex2ans4.AutoSize = true;
+            this.ex2ans4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans4.Location = new System.Drawing.Point(701, 672);
+            this.ex2ans4.MinimumSize = new System.Drawing.Size(100, 0);
+            this.ex2ans4.Name = "ex2ans4";
+            this.ex2ans4.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans4.Size = new System.Drawing.Size(100, 26);
+            this.ex2ans4.TabIndex = 81;
+            // 
+            // ex2ans3
+            // 
+            this.ex2ans3.AutoSize = true;
+            this.ex2ans3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans3.Location = new System.Drawing.Point(503, 641);
+            this.ex2ans3.MinimumSize = new System.Drawing.Size(30, 0);
+            this.ex2ans3.Name = "ex2ans3";
+            this.ex2ans3.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans3.Size = new System.Drawing.Size(30, 26);
+            this.ex2ans3.TabIndex = 80;
+            // 
+            // ex2ans2
+            // 
+            this.ex2ans2.AutoSize = true;
+            this.ex2ans2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans2.Location = new System.Drawing.Point(503, 608);
+            this.ex2ans2.MinimumSize = new System.Drawing.Size(100, 0);
+            this.ex2ans2.Name = "ex2ans2";
+            this.ex2ans2.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans2.Size = new System.Drawing.Size(100, 26);
+            this.ex2ans2.TabIndex = 79;
+            // 
+            // ex2ans1
+            // 
+            this.ex2ans1.AutoSize = true;
+            this.ex2ans1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex2ans1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans1.Location = new System.Drawing.Point(478, 575);
+            this.ex2ans1.MinimumSize = new System.Drawing.Size(30, 0);
+            this.ex2ans1.Name = "ex2ans1";
+            this.ex2ans1.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans1.Size = new System.Drawing.Size(30, 26);
+            this.ex2ans1.TabIndex = 78;
             // 
             // ex3ans20
             // 
             this.ex3ans20.AutoSize = true;
             this.ex3ans20.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans20.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans20.Location = new System.Drawing.Point(438, 1757);
             this.ex3ans20.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans20.Name = "ex3ans20";
@@ -277,6 +398,7 @@
             this.ex3ans19.AutoSize = true;
             this.ex3ans19.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans19.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans19.Location = new System.Drawing.Point(464, 1721);
             this.ex3ans19.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans19.Name = "ex3ans19";
@@ -289,6 +411,7 @@
             this.ex3ans18.AutoSize = true;
             this.ex3ans18.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans18.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans18.Location = new System.Drawing.Point(545, 1691);
             this.ex3ans18.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans18.Name = "ex3ans18";
@@ -301,6 +424,7 @@
             this.ex3ans17.AutoSize = true;
             this.ex3ans17.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans17.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans17.Location = new System.Drawing.Point(545, 1653);
             this.ex3ans17.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans17.Name = "ex3ans17";
@@ -313,6 +437,7 @@
             this.ex3ans16.AutoSize = true;
             this.ex3ans16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans16.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans16.Location = new System.Drawing.Point(683, 1618);
             this.ex3ans16.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans16.Name = "ex3ans16";
@@ -325,6 +450,7 @@
             this.ex3ans15.AutoSize = true;
             this.ex3ans15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans15.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans15.Location = new System.Drawing.Point(490, 1584);
             this.ex3ans15.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans15.Name = "ex3ans15";
@@ -337,6 +463,7 @@
             this.ex3ans14.AutoSize = true;
             this.ex3ans14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans14.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans14.Location = new System.Drawing.Point(549, 1551);
             this.ex3ans14.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans14.Name = "ex3ans14";
@@ -349,6 +476,7 @@
             this.ex3ans13.AutoSize = true;
             this.ex3ans13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans13.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans13.Location = new System.Drawing.Point(438, 1516);
             this.ex3ans13.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans13.Name = "ex3ans13";
@@ -361,6 +489,7 @@
             this.ex3ans12.AutoSize = true;
             this.ex3ans12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans12.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans12.Location = new System.Drawing.Point(590, 1482);
             this.ex3ans12.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans12.Name = "ex3ans12";
@@ -373,6 +502,7 @@
             this.ex3ans11.AutoSize = true;
             this.ex3ans11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans11.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans11.Location = new System.Drawing.Point(681, 1447);
             this.ex3ans11.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans11.Name = "ex3ans11";
@@ -385,6 +515,7 @@
             this.ex3ans10.AutoSize = true;
             this.ex3ans10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans10.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans10.Location = new System.Drawing.Point(478, 1414);
             this.ex3ans10.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans10.Name = "ex3ans10";
@@ -397,6 +528,7 @@
             this.ex3ans9.AutoSize = true;
             this.ex3ans9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans9.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans9.Location = new System.Drawing.Point(474, 1377);
             this.ex3ans9.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans9.Name = "ex3ans9";
@@ -409,6 +541,7 @@
             this.ex3ans8.AutoSize = true;
             this.ex3ans8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans8.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans8.Location = new System.Drawing.Point(478, 1344);
             this.ex3ans8.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans8.Name = "ex3ans8";
@@ -421,6 +554,7 @@
             this.ex3ans7.AutoSize = true;
             this.ex3ans7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans7.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans7.Location = new System.Drawing.Point(418, 1311);
             this.ex3ans7.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans7.Name = "ex3ans7";
@@ -433,6 +567,7 @@
             this.ex3ans6.AutoSize = true;
             this.ex3ans6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans6.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans6.Location = new System.Drawing.Point(571, 1275);
             this.ex3ans6.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans6.Name = "ex3ans6";
@@ -445,6 +580,7 @@
             this.ex3ans5.AutoSize = true;
             this.ex3ans5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans5.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans5.Location = new System.Drawing.Point(490, 1242);
             this.ex3ans5.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans5.Name = "ex3ans5";
@@ -457,6 +593,7 @@
             this.ex3ans4.AutoSize = true;
             this.ex3ans4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans4.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans4.Location = new System.Drawing.Point(664, 1208);
             this.ex3ans4.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans4.Name = "ex3ans4";
@@ -469,6 +606,7 @@
             this.ex3ans3.AutoSize = true;
             this.ex3ans3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans3.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans3.Location = new System.Drawing.Point(490, 1172);
             this.ex3ans3.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans3.Name = "ex3ans3";
@@ -481,6 +619,7 @@
             this.ex3ans2.AutoSize = true;
             this.ex3ans2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans2.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans2.Location = new System.Drawing.Point(418, 1140);
             this.ex3ans2.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans2.Name = "ex3ans2";
@@ -493,6 +632,7 @@
             this.ex3ans1.AutoSize = true;
             this.ex3ans1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex3ans1.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex3ans1.Location = new System.Drawing.Point(503, 1105);
             this.ex3ans1.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans1.Name = "ex3ans1";
@@ -503,13 +643,14 @@
             // ex4answers
             // 
             this.ex4answers.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ex4answers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ex4answers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ex4answers.ForeColor = System.Drawing.Color.LimeGreen;
             this.ex4answers.Location = new System.Drawing.Point(48, 2499);
             this.ex4answers.Multiline = true;
             this.ex4answers.Name = "ex4answers";
             this.ex4answers.ReadOnly = true;
-            this.ex4answers.Size = new System.Drawing.Size(551, 349);
+            this.ex4answers.Size = new System.Drawing.Size(551, 383);
             this.ex4answers.TabIndex = 57;
             // 
             // pointscheck4
@@ -1264,126 +1405,6 @@
             this.task1ex1.TabIndex = 2;
             this.task1ex1.TabStop = false;
             // 
-            // ex2ans1
-            // 
-            this.ex2ans1.AutoSize = true;
-            this.ex2ans1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans1.Location = new System.Drawing.Point(478, 575);
-            this.ex2ans1.MinimumSize = new System.Drawing.Size(30, 0);
-            this.ex2ans1.Name = "ex2ans1";
-            this.ex2ans1.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans1.Size = new System.Drawing.Size(30, 26);
-            this.ex2ans1.TabIndex = 78;
-            // 
-            // ex2ans2
-            // 
-            this.ex2ans2.AutoSize = true;
-            this.ex2ans2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans2.Location = new System.Drawing.Point(503, 608);
-            this.ex2ans2.MinimumSize = new System.Drawing.Size(100, 0);
-            this.ex2ans2.Name = "ex2ans2";
-            this.ex2ans2.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans2.Size = new System.Drawing.Size(100, 26);
-            this.ex2ans2.TabIndex = 79;
-            // 
-            // ex2ans3
-            // 
-            this.ex2ans3.AutoSize = true;
-            this.ex2ans3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans3.Location = new System.Drawing.Point(503, 641);
-            this.ex2ans3.MinimumSize = new System.Drawing.Size(30, 0);
-            this.ex2ans3.Name = "ex2ans3";
-            this.ex2ans3.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans3.Size = new System.Drawing.Size(30, 26);
-            this.ex2ans3.TabIndex = 80;
-            // 
-            // ex2ans4
-            // 
-            this.ex2ans4.AutoSize = true;
-            this.ex2ans4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans4.Location = new System.Drawing.Point(701, 672);
-            this.ex2ans4.MinimumSize = new System.Drawing.Size(100, 0);
-            this.ex2ans4.Name = "ex2ans4";
-            this.ex2ans4.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans4.Size = new System.Drawing.Size(100, 26);
-            this.ex2ans4.TabIndex = 81;
-            // 
-            // ex2ans5
-            // 
-            this.ex2ans5.AutoSize = true;
-            this.ex2ans5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans5.Location = new System.Drawing.Point(883, 706);
-            this.ex2ans5.MinimumSize = new System.Drawing.Size(30, 0);
-            this.ex2ans5.Name = "ex2ans5";
-            this.ex2ans5.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans5.Size = new System.Drawing.Size(30, 26);
-            this.ex2ans5.TabIndex = 82;
-            // 
-            // ex2ans6
-            // 
-            this.ex2ans6.AutoSize = true;
-            this.ex2ans6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans6.Location = new System.Drawing.Point(857, 742);
-            this.ex2ans6.MinimumSize = new System.Drawing.Size(30, 0);
-            this.ex2ans6.Name = "ex2ans6";
-            this.ex2ans6.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans6.Size = new System.Drawing.Size(30, 26);
-            this.ex2ans6.TabIndex = 83;
-            // 
-            // ex2ans7
-            // 
-            this.ex2ans7.AutoSize = true;
-            this.ex2ans7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans7.Location = new System.Drawing.Point(754, 775);
-            this.ex2ans7.MinimumSize = new System.Drawing.Size(100, 0);
-            this.ex2ans7.Name = "ex2ans7";
-            this.ex2ans7.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans7.Size = new System.Drawing.Size(100, 26);
-            this.ex2ans7.TabIndex = 84;
-            // 
-            // ex2ans8
-            // 
-            this.ex2ans8.AutoSize = true;
-            this.ex2ans8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans8.Location = new System.Drawing.Point(490, 808);
-            this.ex2ans8.MinimumSize = new System.Drawing.Size(30, 0);
-            this.ex2ans8.Name = "ex2ans8";
-            this.ex2ans8.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans8.Size = new System.Drawing.Size(30, 26);
-            this.ex2ans8.TabIndex = 85;
-            // 
-            // ex2ans9
-            // 
-            this.ex2ans9.AutoSize = true;
-            this.ex2ans9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans9.Location = new System.Drawing.Point(631, 843);
-            this.ex2ans9.MinimumSize = new System.Drawing.Size(30, 0);
-            this.ex2ans9.Name = "ex2ans9";
-            this.ex2ans9.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans9.Size = new System.Drawing.Size(30, 26);
-            this.ex2ans9.TabIndex = 86;
-            // 
-            // ex2ans10
-            // 
-            this.ex2ans10.AutoSize = true;
-            this.ex2ans10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ex2ans10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2ans10.Location = new System.Drawing.Point(553, 878);
-            this.ex2ans10.MinimumSize = new System.Drawing.Size(100, 0);
-            this.ex2ans10.Name = "ex2ans10";
-            this.ex2ans10.Padding = new System.Windows.Forms.Padding(3);
-            this.ex2ans10.Size = new System.Drawing.Size(100, 26);
-            this.ex2ans10.TabIndex = 87;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1396,11 +1417,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pagepanel);
             this.Name = "usrTask1";
             this.Size = new System.Drawing.Size(1203, 610);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pagepanel.ResumeLayout(false);
+            this.pagepanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.task1ex4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.task1ex3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.task1ex2)).EndInit();
@@ -1427,7 +1448,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pagepanel;
         private System.Windows.Forms.Panel num1;
         private System.Windows.Forms.PictureBox task1ex1;
         private System.Windows.Forms.RadioButton n1v2;
