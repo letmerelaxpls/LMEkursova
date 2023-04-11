@@ -83,6 +83,7 @@
             this.task3.TabIndex = 5;
             this.task3.Text = "№3";
             this.task3.UseVisualStyleBackColor = false;
+            this.task3.Click += new System.EventHandler(this.task3_Click);
             // 
             // task4
             // 

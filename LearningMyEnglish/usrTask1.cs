@@ -45,358 +45,147 @@ namespace LearningMyEnglish
             {
                 foreach (Control control in form.Controls)
                 {
-                    control.Show();
+                    if (control is pnlRules || control is pnlTasks)
+                        control.Show();
 
                     if (control is usrTask1)
-                    {
                         control.Hide();
-                    }
-
                 }
             }
         }
 
         private void check1_Click(object sender, EventArgs e)
         {
-
             double vpr1points = 0;
-            // Додача балів до правильних відповідей
-            if (n1v2.Checked) vpr1points += 12.5;
-            else
+            Dictionary<string, string> correctAnswers = new Dictionary<string, string>()
             {
-                n1v2.ForeColor = Color.LimeGreen;
-                n1v1.ForeColor = Color.Red;
+                {"num1", "n1v2"},
+                {"num2", "n2v1"},
+                {"num3", "n3v1"},
+                {"num4", "n4v2"},
+                {"num5", "n5v1"},
+                {"num6", "n6v1"},
+                {"num7", "n7v2"},
+                {"num8", "n8v1"}
+            };
+
+            foreach (var pair in correctAnswers)
+            {
+                var panel = Controls.Find(pair.Key, true).FirstOrDefault() as Panel;
+                var selectedRadioButton = panel?.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked);
+
+                if (selectedRadioButton != null && selectedRadioButton.Name == pair.Value)
+                {
+                    vpr1points += 12.5;
+                }
+                else
+                {
+                    if (selectedRadioButton != null)
+                        selectedRadioButton.BackColor = Color.Red;
+
+                    RadioButton radioButton = panel.Controls.OfType<RadioButton>().Where(r => r.Name == pair.Value).FirstOrDefault();
+                    if (radioButton != null)
+                        radioButton.BackColor = Color.Green;
+                }
             }
 
-            if (n2v1.Checked) vpr1points += 12.5;
-            else
-            {
-                n2v1.ForeColor = Color.LimeGreen;
-                n2v2.ForeColor = Color.Red;
-            }
-
-            if (n3v1.Checked) vpr1points += 12.5;
-            else
-            {
-                n3v1.ForeColor = Color.LimeGreen;
-                n3v2.ForeColor = Color.Red;
-            }
-
-            if (n4v2.Checked) vpr1points += 12.5;
-            else
-            {
-                n4v2.ForeColor = Color.LimeGreen;
-                n4v1.ForeColor = Color.Red;
-            }
-
-            if (n5v1.Checked) vpr1points += 12.5;
-            else
-            {
-                n5v1.ForeColor = Color.LimeGreen;
-                n5v2.ForeColor = Color.Red;
-            }
-
-            if (n6v1.Checked) vpr1points += 12.5;
-            else
-            {
-                n6v1.ForeColor = Color.LimeGreen;
-                n6v2.ForeColor = Color.Red;
-            }
-
-            if (n7v2.Checked) vpr1points += 12.5;
-            else
-            {
-                n7v2.ForeColor = Color.LimeGreen;
-                n7v1.ForeColor = Color.Red;
-            }
-
-            if (n8v1.Checked) vpr1points += 12.5;
-            else
-            {
-                n8v1.ForeColor = Color.LimeGreen;
-                n8v2.ForeColor = Color.Red;
-            }
-
-            // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck1.Text = ("Кількість балів: " + vpr1points.ToString());
+            pointscheck1.Text = $"Кількість балів: {vpr1points}";
             pointscheck1.BorderStyle = BorderStyle.FixedSingle;
             pointscheck1.BackColor = Color.White;
-            // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
+
             check1.Enabled = false;
             task1ex1.Focus();
         }
-
         private void check2_Click(object sender, EventArgs e)
         {
 
             int vpr2points = 0;
-            // Додача балів до правильних відповідей
-            if (ex2n1ans.Text == "saw") vpr2points += 10;
-            else
+            Dictionary<string, (string, Label)> answers = new Dictionary<string, (string, Label)>()
             {
-                ex2ans1.Text = "saw";
-                ex2ans1.ForeColor = Color.LimeGreen;
-                ex2ans1.BorderStyle = BorderStyle.FixedSingle;
-                ex2n1ans.ForeColor = Color.Red;
-            }
+                {"ex2n1ans", ("saw", ex2ans1)},
+                {"ex2n2ans", ("will be received", ex2ans2)},
+                {"ex2n3ans", ("will give", ex2ans3)},
+                {"ex2n4ans", ("be found", ex2ans4)},
+                {"ex2n5ans", ("will show", ex2ans5)},
+                {"ex2n6ans", ("find", ex2ans6)},
+                {"ex2n7ans", ("is divided", ex2ans7)},
+                {"ex2n8ans", ("reads", ex2ans8)},
+                {"ex2n9ans", ("is read", ex2ans9)},
+                {"ex2n10ans", ("was built", ex2ans10)}
+            };
 
-            if (ex2n2ans.Text == "will be recieved") vpr2points += 10;
-            else
+            foreach (var item in answers)
             {
-                ex2ans2.Text = "will be received";
-                ex2ans2.ForeColor = Color.LimeGreen;
-                ex2ans2.BorderStyle = BorderStyle.FixedSingle;
-                ex2n2ans.ForeColor = Color.Red;
-            }
+                var key = item.Key;
+                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
+                var correctAnswer = item.Value.Item1;
+                var answerLabel = item.Value.Item2;
 
-            if (ex2n3ans.Text == "will give") vpr2points += 10;
-            else
-            {
-                ex2ans3.Text = "will give";
-                ex2ans3.ForeColor = Color.LimeGreen;
-                ex2ans3.BorderStyle = BorderStyle.FixedSingle;
-                ex2n3ans.ForeColor = Color.Red;
-            }
-
-            if (ex2n4ans.Text == "be found") vpr2points += 10;
-            else
-            {
-                ex2ans4.Text = "be found";
-                ex2ans4.ForeColor = Color.LimeGreen;
-                ex2ans4.BorderStyle = BorderStyle.FixedSingle;
-                ex2n4ans.ForeColor = Color.Red;
-            }
-
-            if (ex2n5ans.Text == "will show" || ex2n5ans.Text == "shall show") vpr2points += 10;
-            else
-            {
-                ex2ans5.Text = "will show OR shall show";
-                ex2ans5.ForeColor = Color.LimeGreen;
-                ex2ans5.BorderStyle = BorderStyle.FixedSingle;
-                ex2n5ans.ForeColor = Color.Red;
-            }
-
-            if (ex2n6ans.Text == "find") vpr2points += 10;
-            else
-            {
-                ex2ans6.Text = "find";
-                ex2ans6.ForeColor = Color.LimeGreen;
-                ex2ans6.BorderStyle = BorderStyle.FixedSingle;
-                ex2n6ans.ForeColor = Color.Red;
-            }
-
-            if (ex2n7ans.Text == "is divided") vpr2points += 10;
-            else
-            {
-                ex2ans7.Text = "is divided";
-                ex2ans7.ForeColor = Color.LimeGreen;
-                ex2ans7.BorderStyle = BorderStyle.FixedSingle;
-                ex2n7ans.ForeColor = Color.Red;
-            }
-
-            if (ex2n8ans.Text == "reads") vpr2points += 10;
-            else
-            {
-                ex2ans8.Text = "reads";
-                ex2ans8.ForeColor = Color.LimeGreen;
-                ex2ans8.BorderStyle = BorderStyle.FixedSingle;
-                ex2n8ans.ForeColor = Color.Red;
-            }
-
-            if (ex2n9ans.Text == "is read") vpr2points += 10;
-            else
-            {
-                ex2ans9.Text = "is read";
-                ex2ans9.ForeColor = Color.LimeGreen;
-                ex2ans9.BorderStyle = BorderStyle.FixedSingle;
-                ex2n9ans.ForeColor = Color.Red;
-            }
-                
-            if (ex2n10ans.Text == "was built" || ex2n10ans.Text == "is built") vpr2points += 10;
-            else
-            {
-                ex2ans10.Text = "was built OR is built";
-                ex2ans10.ForeColor = Color.LimeGreen;
-                ex2ans10.BorderStyle = BorderStyle.FixedSingle;
-                ex2n10ans.ForeColor = Color.Red;
+                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
+                    vpr2points += 10;
+                else
+                {
+                    answerLabel.Text = correctAnswer;
+                    answerLabel.BorderStyle = BorderStyle.FixedSingle;
+                    userAnswer.ForeColor = Color.Red;
+                }
             }
 
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck2.Text = ("Кількість балів: " + vpr2points.ToString());
+            pointscheck2.Text = $"Кількість балів: {vpr2points}";
             pointscheck2.BorderStyle = BorderStyle.FixedSingle;
             pointscheck2.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
             check2.Enabled = false;
             task1ex2.Focus();
         }
-
         private void check3_Click(object sender, EventArgs e)
         {
 
             int vpr3points = 0;
-            // Додача балів до правильних відповідей
-            if (ex3n1ans.Text == "was answered") vpr3points += 5;
-            else
+            Dictionary<string, (string, Label)> answers = new Dictionary<string, (string, Label)>()
             {
-                ex3ans1.Text = "was answered";
-                ex3ans1.BorderStyle = BorderStyle.FixedSingle;
-                ex3n1ans.ForeColor = Color.Red;
-            }
+                {"ex3n1ans", ("was answered", ex3ans1)},
+                {"ex3n2ans", ("is played", ex3ans2)},
+                {"ex3n3ans", ("are gathered", ex3ans3)},
+                {"ex3n4ans", ("were burnt", ex3ans4)},
+                {"ex3n5ans", ("will be finished", ex3ans5)},
+                {"ex3n6ans", ("are sold", ex3ans6)},
+                {"ex3n7ans", ("is eaten", ex3ans7)},
+                {"ex3n8ans", ("was received", ex3ans8)},
+                {"ex3n9ans", ("will be sent", ex3ans9)},
+                {"ex3n10ans", ("was asked", ex3ans10)},
+                {"ex3n11ans", ("was given", ex3ans11)},
+                {"ex3n12ans", ("are built", ex3ans12)},
+                {"ex3n13ans", ("will be done", ex3ans13)},
+                {"ex3n14ans", ("was translated", ex3ans14)},
+                {"ex3n15ans", ("were planted", ex3ans15)},
+                {"ex3n16ans", ("are always played", ex3ans16)},
+                {"ex3n17ans", ("will be given", ex3ans17)},
+                {"ex3n18ans", ("were invited", ex3ans18)},
+                {"ex3n19ans", ("is never found", ex3ans19)},
+                {"ex3n20ans", ("was not built", ex3ans20)}
+            };
 
-            if (ex3n2ans.Text == "is played") vpr3points += 5;
-            else
+            foreach (var item in answers)
             {
-                ex3ans2.Text = "is played";
-                ex3ans2.BorderStyle = BorderStyle.FixedSingle;
-                ex3n2ans.ForeColor = Color.Red;
-            }
+                var key = item.Key;
+                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
+                var correctAnswer = item.Value.Item1;
+                var answerLabel = item.Value.Item2;
 
-            if (ex3n3ans.Text == "are gathered") vpr3points += 5;
-            else
-            {
-                ex3ans3.Text = "are gathered";
-                ex3ans3.BorderStyle = BorderStyle.FixedSingle;
-                ex3n3ans.ForeColor = Color.Red;
+                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
+                    vpr3points += 5;
+                else
+                {
+                    answerLabel.Text = correctAnswer;
+                    answerLabel.BorderStyle = BorderStyle.FixedSingle;
+                    userAnswer.ForeColor = Color.Red;
+                }
             }
-                
-            if (ex3n4ans.Text == "were burnt") vpr3points += 5;
-            else
-            {
-                ex3ans4.Text = "were burnt";
-                ex3ans4.BorderStyle = BorderStyle.FixedSingle;
-                ex3n4ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n5ans.Text == "will be finished") vpr3points += 5;
-            else
-            {
-                ex3ans5.Text = "will be finished";
-                ex3ans5.BorderStyle = BorderStyle.FixedSingle;
-                ex3n5ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n6ans.Text == "are sold") vpr3points += 5;
-            else
-            {
-                ex3ans6.Text = "are sold";
-                ex3ans6.BorderStyle = BorderStyle.FixedSingle;
-                ex3n6ans.ForeColor = Color.Red;
-            }
-                
-            if (ex3n7ans.Text == "is eaten") vpr3points += 5;
-            else
-            {
-                ex3ans7.Text = "is eaten";
-                ex3ans7.BorderStyle = BorderStyle.FixedSingle;
-                ex3n7ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n8ans.Text == "was received") vpr3points += 5;
-            else
-            {
-                ex3ans8.Text = "was received";
-                ex3ans8.BorderStyle = BorderStyle.FixedSingle;
-                ex3n8ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n9ans.Text == "will be sent") vpr3points += 5;
-            else
-            {
-                ex3ans9.Text = "will be sent";
-                ex3ans9.BorderStyle = BorderStyle.FixedSingle;
-                ex3n9ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n10ans.Text == "was asked") vpr3points += 5;
-            else
-            {
-                ex3ans10.Text = "was asked";
-                ex3ans10.BorderStyle = BorderStyle.FixedSingle;
-                ex3n10ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n11ans.Text == "was given") vpr3points += 5;
-            else
-            {
-                ex3ans11.Text = "was given";
-                ex3ans11.BorderStyle = BorderStyle.FixedSingle;
-                ex3n11ans.ForeColor = Color.Red;
-            }
-                
-            if (ex3n12ans.Text == "are built") vpr3points += 5;
-            else
-            {
-                ex3ans12.Text = "are built";
-                ex3ans12.BorderStyle = BorderStyle.FixedSingle;
-                ex3n12ans.ForeColor = Color.Red;
-            }
-                
-            if (ex3n13ans.Text == "will be done") vpr3points += 5;
-            else
-            {
-                ex3ans13.Text = "will be done";
-                ex3ans13.BorderStyle = BorderStyle.FixedSingle;
-                ex3n13ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n14ans.Text == "was translated") vpr3points += 5;
-            else
-            {
-                ex3ans14.Text = "was translated";
-                ex3ans14.BorderStyle = BorderStyle.FixedSingle;
-                ex3n14ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n15ans.Text == "were planted") vpr3points += 5;
-            else
-            {
-                ex3ans15.Text = "were planted";
-                ex3ans15.BorderStyle = BorderStyle.FixedSingle;
-                ex3n15ans.ForeColor = Color.Red;
-            }
-                
-            if (ex3n16ans.Text == "are always played") vpr3points += 5;
-            else
-            {
-                ex3ans16.Text = "are always played";
-                ex3ans16.BorderStyle = BorderStyle.FixedSingle;
-                ex3n16ans.ForeColor = Color.Red;
-            }
-                
-            if (ex3n17ans.Text == "will be given") vpr3points += 5;
-            else
-            {
-                ex3ans17.Text = "will be given";
-                ex3ans17.BorderStyle = BorderStyle.FixedSingle;
-                ex3n17ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n18ans.Text == "were invited") vpr3points += 5;
-            else
-            {
-                ex3ans18.Text = "were invited";
-                ex3ans18.BorderStyle = BorderStyle.FixedSingle;
-                ex3n18ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n19ans.Text == "is never found" || ex3n19ans.Text == "was never found") vpr3points += 5;
-            else
-            {
-                ex3ans19.Text = "is never found OR was never found";
-                ex3ans19.BorderStyle = BorderStyle.FixedSingle;
-                ex3n19ans.ForeColor = Color.Red;
-            }
-
-            if (ex3n20ans.Text == "was not built" || ex3n20ans.Text == "wasn`t built") vpr3points += 5;
-            else
-            {
-                ex3ans20.Text = "was not built OR wasn`t built";
-                ex3ans20.BorderStyle = BorderStyle.FixedSingle;
-                ex3n20ans.ForeColor = Color.Red;
-            }
-
+            
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck3.Text = ("Кількість балів: " + vpr3points.ToString());
+            pointscheck3.Text = $"Кількість балів: {vpr3points}";
             pointscheck3.BorderStyle = BorderStyle.FixedSingle;
             pointscheck3.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
@@ -406,93 +195,41 @@ namespace LearningMyEnglish
         private void check4_Click(object sender, EventArgs e)
         {
             double vpr4points = 0;
-            // Додача балів до правильних відповідей
-            if (ex4n1ans.Text == "The freshman was laughed at") vpr4points += 8.33;
-            else
+            int i = 0;
+            Dictionary<string, string> answers = new Dictionary<string, string>()
             {
-                ex4answers.Text += "1. The freshman was laughed at\r\n";
-                ex4n1ans.ForeColor = Color.Red;
-            }
+                {"ex4n1ans", "The freshman was laughed at"},
+                {"ex4n2ans", "The headmistress was spoken to yesterday"},
+                {"ex4n3ans", "The babies were looked after with great care"},
+                {"ex4n4ans", "That old house wasn`t lived in"},
+                {"ex4n5ans", "Jim was sent for and told to prepare a report on that subject"},
+                {"ex4n6ans", "Our friend was thought about all the time"},
+                {"ex4n7ans", "He will be operated on in a week"},
+                {"ex4n8ans", "The pupil`s parents were sent for"},
+                {"ex4n9ans", "The newspaper was looked for everywhere"},
+                {"ex4n10ans", "The bed wasn`t slept in"},
+                {"ex4n11ans", "The telegram was asked for"},
+                {"ex4n12ans", "The lecturer was listened to with great attention"}
+            };
 
-            if (ex4n2ans.Text == "The headmistress was spoken to yesterday" || ex4n2ans.Text == "The headmistress was spoken to") vpr4points += 8.33;
-            else
+            foreach (var item in answers)
             {
-                ex4answers.Text += "2. The headmistress was spoken to yesterday OR The headmistress was spoken to\r\n";
-                ex4n2ans.ForeColor = Color.Red;
-            }
+                i++;
+                var key = item.Key;
+                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
+                var correctAnswer = item.Value;
 
-            if (ex4n3ans.Text == "The babies were looked after" || ex4n3ans.Text == "The babies were looked after with great care") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "3. The babies were looked after OR The babies were looked after with great care\r\n";
-                ex4n3ans.ForeColor = Color.Red;
+                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
+                    vpr4points += 8.33;
+                else
+                {
+                    ex4answers.Text += $"{i}. {correctAnswer}\r\n";
+                    userAnswer.ForeColor = Color.Red;
+                }
             }
-
-            if (ex4n4ans.Text == "That old house was not lived in") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "4. That old house was not lived in\r\n";
-                ex4n4ans.ForeColor = Color.Red;
-            }
-
-            if (ex4n5ans.Text == "Jim was sent for and told to prepare a report on that subject") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "5. Jim was sent for and told to prepare a report on that subject\r\n";
-                ex4n5ans.ForeColor = Color.Red;
-            }
-                
-            if (ex4n6ans.Text == "Our friend was thought about all the time") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "6. Our friend was thought about all the time\r\n";
-                ex4n6ans.ForeColor = Color.Red;
-            }
-
-            if (ex4n7ans.Text == "He will be operated on in a week" || ex4n7ans.Text == "He will be operated on") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "7. He will be operated on in a week OR He will be operated on\r\n";
-                ex4n7ans.ForeColor = Color.Red;
-            }
-
-            if (ex4n8ans.Text == "The pupil`s parents were sent for") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "8. The pupil’s parents were sent for\r\n";
-                ex4n8ans.ForeColor = Color.Red;
-            }
-
-            if (ex4n9ans.Text == "The newspaper was looked for everywhere" || ex4n9ans.Text == "The newspaper was looked for") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "9. The newspaper was looked for everywhere OR The newspaper was looked for\r\n";
-                ex4n9ans.ForeColor = Color.Red;
-            }
-                
-            if (ex4n10ans.Text == "The bed was not slept in") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "10. The bed was not slept in\r\n";
-                ex4n10ans.ForeColor = Color.Red;
-            }
-
-            if (ex4n11ans.Text == "The telegram was asked for") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "11. The telegram was asked for\r\n";
-                ex4n11ans.ForeColor = Color.Red;
-            }
-
-            if (ex4n12ans.Text == "The lecturer was listened to with great attention" || ex4n12ans.Text == "The lecturer was listened to") vpr4points += 8.33;
-            else
-            {
-                ex4answers.Text += "12. The lecturer was listened to with great attention OR The lecturer was listened to\r\n";
-                ex4n12ans.ForeColor = Color.Red;
-            }
-                
+            
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck4.Text = ("Кількість балів: " + vpr4points.ToString());
+            pointscheck4.Text = $"Кількість балів: {vpr4points}";
             pointscheck4.BorderStyle = BorderStyle.FixedSingle;
             pointscheck4.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей

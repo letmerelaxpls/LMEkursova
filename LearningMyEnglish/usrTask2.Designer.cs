@@ -37,7 +37,6 @@
             this.ex5n1 = new System.Windows.Forms.TextBox();
             this.pointscheck5 = new System.Windows.Forms.Label();
             this.check5 = new System.Windows.Forms.Button();
-            this.task2ex5 = new System.Windows.Forms.PictureBox();
             this.ex4p5 = new System.Windows.Forms.Panel();
             this.ex4p5v3 = new System.Windows.Forms.RadioButton();
             this.ex4p5v2 = new System.Windows.Forms.RadioButton();
@@ -60,7 +59,6 @@
             this.ex4p1v1 = new System.Windows.Forms.RadioButton();
             this.pointscheck4 = new System.Windows.Forms.Label();
             this.check4 = new System.Windows.Forms.Button();
-            this.task2ex4 = new System.Windows.Forms.PictureBox();
             this.ex3n5ans = new System.Windows.Forms.Label();
             this.ex3n4ans = new System.Windows.Forms.Label();
             this.ex3n3ans = new System.Windows.Forms.Label();
@@ -73,7 +71,6 @@
             this.ex3n1 = new System.Windows.Forms.TextBox();
             this.pointscheck3 = new System.Windows.Forms.Label();
             this.check3 = new System.Windows.Forms.Button();
-            this.task2ex3 = new System.Windows.Forms.PictureBox();
             this.ex2n5ans = new System.Windows.Forms.Label();
             this.ex2n4ans = new System.Windows.Forms.Label();
             this.ex2n3ans = new System.Windows.Forms.Label();
@@ -87,8 +84,6 @@
             this.ex2n1 = new System.Windows.Forms.TextBox();
             this.pointscheck2 = new System.Windows.Forms.Label();
             this.check2 = new System.Windows.Forms.Button();
-            this.task2ex2 = new System.Windows.Forms.PictureBox();
-            this.backtomenu = new System.Windows.Forms.Button();
             this.pointscheck1 = new System.Windows.Forms.Label();
             this.check1 = new System.Windows.Forms.Button();
             this.ex1panelanswers = new System.Windows.Forms.Panel();
@@ -108,24 +103,29 @@
             this.ex1p3 = new System.Windows.Forms.Panel();
             this.p3v1 = new System.Windows.Forms.RadioButton();
             this.p3v2 = new System.Windows.Forms.RadioButton();
-            this.task2ex1 = new System.Windows.Forms.PictureBox();
             this.panelwhiteex2 = new System.Windows.Forms.Panel();
+            this.task2ex5 = new System.Windows.Forms.PictureBox();
+            this.task2ex4 = new System.Windows.Forms.PictureBox();
+            this.task2ex3 = new System.Windows.Forms.PictureBox();
+            this.task2ex2 = new System.Windows.Forms.PictureBox();
+            this.backtomenu = new System.Windows.Forms.Button();
+            this.task2ex1 = new System.Windows.Forms.PictureBox();
             this.pagepanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex5)).BeginInit();
             this.ex4p5.SuspendLayout();
             this.ex4p4.SuspendLayout();
             this.ex4p3.SuspendLayout();
             this.ex4p2.SuspendLayout();
             this.ex4p1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex2)).BeginInit();
             this.ex1panelanswers.SuspendLayout();
             this.ex1p1.SuspendLayout();
             this.ex1p2.SuspendLayout();
             this.ex1p5.SuspendLayout();
             this.ex1p4.SuspendLayout();
             this.ex1p3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.task2ex1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -195,7 +195,7 @@
             this.ex5answers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ex5answers.Cursor = System.Windows.Forms.Cursors.Default;
             this.ex5answers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex5answers.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex5answers.ForeColor = System.Drawing.Color.Green;
             this.ex5answers.Location = new System.Drawing.Point(795, 1705);
             this.ex5answers.Multiline = true;
             this.ex5answers.Name = "ex5answers";
@@ -267,16 +267,6 @@
             this.check5.Text = "Перевірити";
             this.check5.UseVisualStyleBackColor = false;
             this.check5.Click += new System.EventHandler(this.check5_Click);
-            // 
-            // task2ex5
-            // 
-            this.task2ex5.Image = global::LearningMyEnglish.Properties.Resources.task2ex5;
-            this.task2ex5.Location = new System.Drawing.Point(0, 1706);
-            this.task2ex5.Name = "task2ex5";
-            this.task2ex5.Size = new System.Drawing.Size(1022, 353);
-            this.task2ex5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.task2ex5.TabIndex = 54;
-            this.task2ex5.TabStop = false;
             // 
             // ex4p5
             // 
@@ -538,22 +528,12 @@
             this.check4.UseVisualStyleBackColor = false;
             this.check4.Click += new System.EventHandler(this.check4_Click);
             // 
-            // task2ex4
-            // 
-            this.task2ex4.Image = global::LearningMyEnglish.Properties.Resources.task2ex4;
-            this.task2ex4.Location = new System.Drawing.Point(0, 1211);
-            this.task2ex4.Name = "task2ex4";
-            this.task2ex4.Size = new System.Drawing.Size(1023, 421);
-            this.task2ex4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.task2ex4.TabIndex = 49;
-            this.task2ex4.TabStop = false;
-            // 
             // ex3n5ans
             // 
             this.ex3n5ans.AutoSize = true;
             this.ex3n5ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3n5ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3n5ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3n5ans.ForeColor = System.Drawing.Color.Green;
             this.ex3n5ans.Location = new System.Drawing.Point(582, 1091);
             this.ex3n5ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex3n5ans.Name = "ex3n5ans";
@@ -566,7 +546,7 @@
             this.ex3n4ans.AutoSize = true;
             this.ex3n4ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3n4ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3n4ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3n4ans.ForeColor = System.Drawing.Color.Green;
             this.ex3n4ans.Location = new System.Drawing.Point(713, 1057);
             this.ex3n4ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex3n4ans.Name = "ex3n4ans";
@@ -579,7 +559,7 @@
             this.ex3n3ans.AutoSize = true;
             this.ex3n3ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3n3ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3n3ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3n3ans.ForeColor = System.Drawing.Color.Green;
             this.ex3n3ans.Location = new System.Drawing.Point(608, 1023);
             this.ex3n3ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex3n3ans.Name = "ex3n3ans";
@@ -592,7 +572,7 @@
             this.ex3n2ans.AutoSize = true;
             this.ex3n2ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3n2ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3n2ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3n2ans.ForeColor = System.Drawing.Color.Green;
             this.ex3n2ans.Location = new System.Drawing.Point(747, 989);
             this.ex3n2ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex3n2ans.Name = "ex3n2ans";
@@ -605,7 +585,7 @@
             this.ex3n1ans.AutoSize = true;
             this.ex3n1ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3n1ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3n1ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3n1ans.ForeColor = System.Drawing.Color.Green;
             this.ex3n1ans.Location = new System.Drawing.Point(574, 954);
             this.ex3n1ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex3n1ans.Name = "ex3n1ans";
@@ -678,22 +658,12 @@
             this.check3.UseVisualStyleBackColor = false;
             this.check3.Click += new System.EventHandler(this.check3_Click);
             // 
-            // task2ex3
-            // 
-            this.task2ex3.Image = global::LearningMyEnglish.Properties.Resources.task2ex3;
-            this.task2ex3.Location = new System.Drawing.Point(0, 884);
-            this.task2ex3.Name = "task2ex3";
-            this.task2ex3.Size = new System.Drawing.Size(1022, 252);
-            this.task2ex3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.task2ex3.TabIndex = 36;
-            this.task2ex3.TabStop = false;
-            // 
             // ex2n5ans
             // 
             this.ex2n5ans.AutoSize = true;
             this.ex2n5ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2n5ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2n5ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex2n5ans.ForeColor = System.Drawing.Color.Green;
             this.ex2n5ans.Location = new System.Drawing.Point(899, 733);
             this.ex2n5ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2n5ans.Name = "ex2n5ans";
@@ -706,7 +676,7 @@
             this.ex2n4ans.AutoSize = true;
             this.ex2n4ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2n4ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2n4ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex2n4ans.ForeColor = System.Drawing.Color.Green;
             this.ex2n4ans.Location = new System.Drawing.Point(823, 702);
             this.ex2n4ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2n4ans.Name = "ex2n4ans";
@@ -719,7 +689,7 @@
             this.ex2n3ans.AutoSize = true;
             this.ex2n3ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2n3ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2n3ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex2n3ans.ForeColor = System.Drawing.Color.Green;
             this.ex2n3ans.Location = new System.Drawing.Point(848, 668);
             this.ex2n3ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2n3ans.Name = "ex2n3ans";
@@ -732,7 +702,7 @@
             this.ex2n2ans.AutoSize = true;
             this.ex2n2ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2n2ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2n2ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex2n2ans.ForeColor = System.Drawing.Color.Green;
             this.ex2n2ans.Location = new System.Drawing.Point(864, 634);
             this.ex2n2ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2n2ans.Name = "ex2n2ans";
@@ -745,7 +715,7 @@
             this.ex2n1ans.AutoSize = true;
             this.ex2n1ans.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2n1ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex2n1ans.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex2n1ans.ForeColor = System.Drawing.Color.Green;
             this.ex2n1ans.Location = new System.Drawing.Point(791, 600);
             this.ex2n1ans.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2n1ans.Name = "ex2n1ans";
@@ -825,29 +795,6 @@
             this.check2.Text = "Перевірити";
             this.check2.UseVisualStyleBackColor = false;
             this.check2.Click += new System.EventHandler(this.check2_Click);
-            // 
-            // task2ex2
-            // 
-            this.task2ex2.Image = global::LearningMyEnglish.Properties.Resources.task2ex2;
-            this.task2ex2.Location = new System.Drawing.Point(0, 505);
-            this.task2ex2.Name = "task2ex2";
-            this.task2ex2.Size = new System.Drawing.Size(1022, 302);
-            this.task2ex2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.task2ex2.TabIndex = 21;
-            this.task2ex2.TabStop = false;
-            // 
-            // backtomenu
-            // 
-            this.backtomenu.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
-            this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backtomenu.Location = new System.Drawing.Point(1111, 13);
-            this.backtomenu.Name = "backtomenu";
-            this.backtomenu.Size = new System.Drawing.Size(48, 48);
-            this.backtomenu.TabIndex = 20;
-            this.backtomenu.UseVisualStyleBackColor = false;
-            this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
             // pointscheck1
             // 
@@ -1069,6 +1016,67 @@
             this.p3v2.Text = "have been waiting";
             this.p3v2.UseVisualStyleBackColor = true;
             // 
+            // panelwhiteex2
+            // 
+            this.panelwhiteex2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panelwhiteex2.Location = new System.Drawing.Point(997, 505);
+            this.panelwhiteex2.Name = "panelwhiteex2";
+            this.panelwhiteex2.Size = new System.Drawing.Size(162, 302);
+            this.panelwhiteex2.TabIndex = 35;
+            // 
+            // task2ex5
+            // 
+            this.task2ex5.Image = global::LearningMyEnglish.Properties.Resources.task2ex5;
+            this.task2ex5.Location = new System.Drawing.Point(0, 1706);
+            this.task2ex5.Name = "task2ex5";
+            this.task2ex5.Size = new System.Drawing.Size(1022, 353);
+            this.task2ex5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.task2ex5.TabIndex = 54;
+            this.task2ex5.TabStop = false;
+            // 
+            // task2ex4
+            // 
+            this.task2ex4.Image = global::LearningMyEnglish.Properties.Resources.task2ex4;
+            this.task2ex4.Location = new System.Drawing.Point(0, 1211);
+            this.task2ex4.Name = "task2ex4";
+            this.task2ex4.Size = new System.Drawing.Size(1023, 421);
+            this.task2ex4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.task2ex4.TabIndex = 49;
+            this.task2ex4.TabStop = false;
+            // 
+            // task2ex3
+            // 
+            this.task2ex3.Image = global::LearningMyEnglish.Properties.Resources.task2ex3;
+            this.task2ex3.Location = new System.Drawing.Point(0, 884);
+            this.task2ex3.Name = "task2ex3";
+            this.task2ex3.Size = new System.Drawing.Size(1022, 252);
+            this.task2ex3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.task2ex3.TabIndex = 36;
+            this.task2ex3.TabStop = false;
+            // 
+            // task2ex2
+            // 
+            this.task2ex2.Image = global::LearningMyEnglish.Properties.Resources.task2ex2;
+            this.task2ex2.Location = new System.Drawing.Point(0, 505);
+            this.task2ex2.Name = "task2ex2";
+            this.task2ex2.Size = new System.Drawing.Size(1022, 302);
+            this.task2ex2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.task2ex2.TabIndex = 21;
+            this.task2ex2.TabStop = false;
+            // 
+            // backtomenu
+            // 
+            this.backtomenu.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
+            this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backtomenu.Location = new System.Drawing.Point(1111, 13);
+            this.backtomenu.Name = "backtomenu";
+            this.backtomenu.Size = new System.Drawing.Size(48, 48);
+            this.backtomenu.TabIndex = 20;
+            this.backtomenu.UseVisualStyleBackColor = false;
+            this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
+            // 
             // task2ex1
             // 
             this.task2ex1.Image = global::LearningMyEnglish.Properties.Resources.task2ex1;
@@ -1078,14 +1086,6 @@
             this.task2ex1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.task2ex1.TabIndex = 0;
             this.task2ex1.TabStop = false;
-            // 
-            // panelwhiteex2
-            // 
-            this.panelwhiteex2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panelwhiteex2.Location = new System.Drawing.Point(997, 505);
-            this.panelwhiteex2.Name = "panelwhiteex2";
-            this.panelwhiteex2.Size = new System.Drawing.Size(364, 302);
-            this.panelwhiteex2.TabIndex = 35;
             // 
             // usrTask2
             // 
@@ -1097,7 +1097,6 @@
             this.Size = new System.Drawing.Size(1414, 2413);
             this.pagepanel.ResumeLayout(false);
             this.pagepanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex5)).EndInit();
             this.ex4p5.ResumeLayout(false);
             this.ex4p5.PerformLayout();
             this.ex4p4.ResumeLayout(false);
@@ -1108,9 +1107,6 @@
             this.ex4p2.PerformLayout();
             this.ex4p1.ResumeLayout(false);
             this.ex4p1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.task2ex2)).EndInit();
             this.ex1panelanswers.ResumeLayout(false);
             this.ex1panelanswers.PerformLayout();
             this.ex1p1.ResumeLayout(false);
@@ -1123,6 +1119,10 @@
             this.ex1p4.PerformLayout();
             this.ex1p3.ResumeLayout(false);
             this.ex1p3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.task2ex2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.task2ex1)).EndInit();
             this.ResumeLayout(false);
 

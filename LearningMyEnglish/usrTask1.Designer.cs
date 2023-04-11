@@ -265,6 +265,7 @@
             this.ex2ans10.AutoSize = true;
             this.ex2ans10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans10.ForeColor = System.Drawing.Color.Green;
             this.ex2ans10.Location = new System.Drawing.Point(553, 878);
             this.ex2ans10.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans10.Name = "ex2ans10";
@@ -277,6 +278,7 @@
             this.ex2ans9.AutoSize = true;
             this.ex2ans9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans9.ForeColor = System.Drawing.Color.Green;
             this.ex2ans9.Location = new System.Drawing.Point(631, 843);
             this.ex2ans9.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans9.Name = "ex2ans9";
@@ -289,6 +291,7 @@
             this.ex2ans8.AutoSize = true;
             this.ex2ans8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans8.ForeColor = System.Drawing.Color.Green;
             this.ex2ans8.Location = new System.Drawing.Point(490, 808);
             this.ex2ans8.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans8.Name = "ex2ans8";
@@ -301,6 +304,7 @@
             this.ex2ans7.AutoSize = true;
             this.ex2ans7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans7.ForeColor = System.Drawing.Color.Green;
             this.ex2ans7.Location = new System.Drawing.Point(754, 775);
             this.ex2ans7.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans7.Name = "ex2ans7";
@@ -313,6 +317,7 @@
             this.ex2ans6.AutoSize = true;
             this.ex2ans6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans6.ForeColor = System.Drawing.Color.Green;
             this.ex2ans6.Location = new System.Drawing.Point(857, 742);
             this.ex2ans6.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans6.Name = "ex2ans6";
@@ -325,6 +330,7 @@
             this.ex2ans5.AutoSize = true;
             this.ex2ans5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans5.ForeColor = System.Drawing.Color.Green;
             this.ex2ans5.Location = new System.Drawing.Point(883, 706);
             this.ex2ans5.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans5.Name = "ex2ans5";
@@ -337,6 +343,7 @@
             this.ex2ans4.AutoSize = true;
             this.ex2ans4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans4.ForeColor = System.Drawing.Color.Green;
             this.ex2ans4.Location = new System.Drawing.Point(701, 672);
             this.ex2ans4.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans4.Name = "ex2ans4";
@@ -349,6 +356,7 @@
             this.ex2ans3.AutoSize = true;
             this.ex2ans3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans3.ForeColor = System.Drawing.Color.Green;
             this.ex2ans3.Location = new System.Drawing.Point(503, 641);
             this.ex2ans3.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans3.Name = "ex2ans3";
@@ -361,6 +369,7 @@
             this.ex2ans2.AutoSize = true;
             this.ex2ans2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans2.ForeColor = System.Drawing.Color.Green;
             this.ex2ans2.Location = new System.Drawing.Point(503, 608);
             this.ex2ans2.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans2.Name = "ex2ans2";
@@ -373,6 +382,7 @@
             this.ex2ans1.AutoSize = true;
             this.ex2ans1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex2ans1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ex2ans1.ForeColor = System.Drawing.Color.Green;
             this.ex2ans1.Location = new System.Drawing.Point(478, 575);
             this.ex2ans1.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans1.Name = "ex2ans1";
@@ -385,7 +395,7 @@
             this.ex3ans20.AutoSize = true;
             this.ex3ans20.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans20.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans20.ForeColor = System.Drawing.Color.Green;
             this.ex3ans20.Location = new System.Drawing.Point(438, 1757);
             this.ex3ans20.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans20.Name = "ex3ans20";
@@ -398,7 +408,7 @@
             this.ex3ans19.AutoSize = true;
             this.ex3ans19.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans19.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans19.ForeColor = System.Drawing.Color.Green;
             this.ex3ans19.Location = new System.Drawing.Point(464, 1721);
             this.ex3ans19.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans19.Name = "ex3ans19";
@@ -411,7 +421,7 @@
             this.ex3ans18.AutoSize = true;
             this.ex3ans18.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans18.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans18.ForeColor = System.Drawing.Color.Green;
             this.ex3ans18.Location = new System.Drawing.Point(545, 1691);
             this.ex3ans18.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans18.Name = "ex3ans18";
@@ -424,7 +434,7 @@
             this.ex3ans17.AutoSize = true;
             this.ex3ans17.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans17.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans17.ForeColor = System.Drawing.Color.Green;
             this.ex3ans17.Location = new System.Drawing.Point(545, 1653);
             this.ex3ans17.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans17.Name = "ex3ans17";
@@ -437,7 +447,7 @@
             this.ex3ans16.AutoSize = true;
             this.ex3ans16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans16.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans16.ForeColor = System.Drawing.Color.Green;
             this.ex3ans16.Location = new System.Drawing.Point(683, 1618);
             this.ex3ans16.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans16.Name = "ex3ans16";
@@ -450,7 +460,7 @@
             this.ex3ans15.AutoSize = true;
             this.ex3ans15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans15.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans15.ForeColor = System.Drawing.Color.Green;
             this.ex3ans15.Location = new System.Drawing.Point(490, 1584);
             this.ex3ans15.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans15.Name = "ex3ans15";
@@ -463,7 +473,7 @@
             this.ex3ans14.AutoSize = true;
             this.ex3ans14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans14.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans14.ForeColor = System.Drawing.Color.Green;
             this.ex3ans14.Location = new System.Drawing.Point(549, 1551);
             this.ex3ans14.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans14.Name = "ex3ans14";
@@ -476,7 +486,7 @@
             this.ex3ans13.AutoSize = true;
             this.ex3ans13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans13.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans13.ForeColor = System.Drawing.Color.Green;
             this.ex3ans13.Location = new System.Drawing.Point(438, 1516);
             this.ex3ans13.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans13.Name = "ex3ans13";
@@ -489,7 +499,7 @@
             this.ex3ans12.AutoSize = true;
             this.ex3ans12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans12.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans12.ForeColor = System.Drawing.Color.Green;
             this.ex3ans12.Location = new System.Drawing.Point(590, 1482);
             this.ex3ans12.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans12.Name = "ex3ans12";
@@ -502,7 +512,7 @@
             this.ex3ans11.AutoSize = true;
             this.ex3ans11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans11.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans11.ForeColor = System.Drawing.Color.Green;
             this.ex3ans11.Location = new System.Drawing.Point(681, 1447);
             this.ex3ans11.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans11.Name = "ex3ans11";
@@ -515,7 +525,7 @@
             this.ex3ans10.AutoSize = true;
             this.ex3ans10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans10.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans10.ForeColor = System.Drawing.Color.Green;
             this.ex3ans10.Location = new System.Drawing.Point(478, 1414);
             this.ex3ans10.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans10.Name = "ex3ans10";
@@ -528,7 +538,7 @@
             this.ex3ans9.AutoSize = true;
             this.ex3ans9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans9.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans9.ForeColor = System.Drawing.Color.Green;
             this.ex3ans9.Location = new System.Drawing.Point(474, 1377);
             this.ex3ans9.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans9.Name = "ex3ans9";
@@ -541,7 +551,7 @@
             this.ex3ans8.AutoSize = true;
             this.ex3ans8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans8.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans8.ForeColor = System.Drawing.Color.Green;
             this.ex3ans8.Location = new System.Drawing.Point(478, 1344);
             this.ex3ans8.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans8.Name = "ex3ans8";
@@ -554,7 +564,7 @@
             this.ex3ans7.AutoSize = true;
             this.ex3ans7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans7.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans7.ForeColor = System.Drawing.Color.Green;
             this.ex3ans7.Location = new System.Drawing.Point(418, 1311);
             this.ex3ans7.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans7.Name = "ex3ans7";
@@ -567,7 +577,7 @@
             this.ex3ans6.AutoSize = true;
             this.ex3ans6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans6.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans6.ForeColor = System.Drawing.Color.Green;
             this.ex3ans6.Location = new System.Drawing.Point(571, 1275);
             this.ex3ans6.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans6.Name = "ex3ans6";
@@ -580,7 +590,7 @@
             this.ex3ans5.AutoSize = true;
             this.ex3ans5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans5.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans5.ForeColor = System.Drawing.Color.Green;
             this.ex3ans5.Location = new System.Drawing.Point(490, 1242);
             this.ex3ans5.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans5.Name = "ex3ans5";
@@ -593,7 +603,7 @@
             this.ex3ans4.AutoSize = true;
             this.ex3ans4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans4.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans4.ForeColor = System.Drawing.Color.Green;
             this.ex3ans4.Location = new System.Drawing.Point(664, 1208);
             this.ex3ans4.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans4.Name = "ex3ans4";
@@ -606,7 +616,7 @@
             this.ex3ans3.AutoSize = true;
             this.ex3ans3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans3.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans3.ForeColor = System.Drawing.Color.Green;
             this.ex3ans3.Location = new System.Drawing.Point(490, 1172);
             this.ex3ans3.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans3.Name = "ex3ans3";
@@ -619,7 +629,7 @@
             this.ex3ans2.AutoSize = true;
             this.ex3ans2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans2.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans2.ForeColor = System.Drawing.Color.Green;
             this.ex3ans2.Location = new System.Drawing.Point(418, 1140);
             this.ex3ans2.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans2.Name = "ex3ans2";
@@ -632,7 +642,7 @@
             this.ex3ans1.AutoSize = true;
             this.ex3ans1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex3ans1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex3ans1.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex3ans1.ForeColor = System.Drawing.Color.Green;
             this.ex3ans1.Location = new System.Drawing.Point(503, 1105);
             this.ex3ans1.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans1.Name = "ex3ans1";

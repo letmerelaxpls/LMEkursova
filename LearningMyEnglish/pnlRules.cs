@@ -45,9 +45,7 @@ namespace LearningMyEnglish
                     control.Hide();
 
                     if (control is usrRule1)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створює новий екземпляр UserControl
@@ -76,9 +74,7 @@ namespace LearningMyEnglish
                 {
                     control.Hide();
                     if (control is usrRule2)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створюємо новий екземпляр UserControl
@@ -108,9 +104,7 @@ namespace LearningMyEnglish
                     control.Hide();
 
                     if (control is usrRule3)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створює новий екземпляр UserControl
@@ -140,9 +134,7 @@ namespace LearningMyEnglish
                     control.Hide();
 
                     if (control is usrRule4)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створює новий екземпляр UserControl
@@ -172,9 +164,7 @@ namespace LearningMyEnglish
                     control.Hide();
 
                     if (control is usrRule5)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створює новий екземпляр UserControl
