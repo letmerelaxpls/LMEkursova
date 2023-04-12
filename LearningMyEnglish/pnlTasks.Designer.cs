@@ -96,6 +96,7 @@
             this.task4.TabIndex = 6;
             this.task4.Text = "№4";
             this.task4.UseVisualStyleBackColor = false;
+            this.task4.Click += new System.EventHandler(this.task4_Click);
             // 
             // panel1
             // 

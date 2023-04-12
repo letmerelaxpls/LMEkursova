@@ -20,11 +20,8 @@ C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\ob
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrTask2.resources
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\EntityFramework.dll
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\System.Data.SQLite.dll
-C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\EntityFramework.xml
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\bin\Debug\System.Data.SQLite.xml
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.csproj.CopyComplete
 C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrTask3.resources
+C:\Users\larsu\Desktop\uchus\IT\prohacker\LearningMyEnglish\LearningMyEnglish\obj\Debug\LearningMyEnglish.usrTask4.resources

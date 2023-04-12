@@ -12,19 +12,11 @@ namespace LearningMyEnglish
 {
     public partial class pnlRules : UserControl
     {
-        public delegate void ResizeFormDelegate(int width, int height);
-        public event ResizeFormDelegate ResizeFormEvent;
         public pnlRules()
         {
             InitializeComponent();
-            this.ResizeFormEvent += pnlRules_ResizeFormEvent;
         }
-        private void pnlRules_ResizeFormEvent(int width, int height)
-        {
-            // Встановлюємо новий розмір форми
-            this.ParentForm.Width = width;
-            this.ParentForm.Height = height;
-        }
+
         private void rule1_Click(object sender, EventArgs e)
         {
 
@@ -33,8 +25,6 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(810, 535);
             this.ParentForm.MinimumSize = new Size(810, 535);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(810, 535);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Rule #1";
@@ -63,8 +53,6 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(645, 575);
             this.ParentForm.MinimumSize = new Size(645, 575);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(645, 575);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Rule #2";
@@ -92,8 +80,6 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(741, 705);
             this.ParentForm.MinimumSize = new Size(741, 705);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(741, 705);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Rule #3";
@@ -122,8 +108,6 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(945, 745);
             this.ParentForm.MinimumSize = new Size(945, 745);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(945, 745);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Rule #4";
@@ -152,8 +136,6 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(755, 670);
             this.ParentForm.MinimumSize = new Size(755, 670);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(755, 670);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Rule #5";

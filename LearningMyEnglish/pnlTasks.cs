@@ -14,17 +14,12 @@ namespace LearningMyEnglish
 {
     public partial class pnlTasks : UserControl
     {
-
-        public delegate void ResizeFormDelegate(int width, int height);
-        public event ResizeFormDelegate ResizeFormEvent;
-
         // Список кнопок та лейблів
         private Dictionary<Button, Label> buttonLabels = new Dictionary<Button, Label>();
 
         public pnlTasks()
         {
             InitializeComponent();
-            this.ResizeFormEvent += pnlTasks_ResizeFormEvent;
         }
 
         private void pnlTasks_Load(object sender, EventArgs e)
@@ -60,12 +55,7 @@ namespace LearningMyEnglish
             label.Visible = false;
         }
 
-        private void pnlTasks_ResizeFormEvent(int width, int height)
-        {
-            // Встановлюємо новий розмір форми
-            this.ParentForm.Width = width;
-            this.ParentForm.Height = height;
-        }
+       
 
         private void task1_Click(object sender, EventArgs e)
         {
@@ -74,8 +64,6 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(905, 535);
             this.ParentForm.MinimumSize = new Size(905, 535);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(905, 535);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Task #1";
@@ -84,10 +72,9 @@ namespace LearningMyEnglish
                 foreach (Control control in form.Controls)
                 {
                     control.Hide();
+
                     if(control is usrTask1)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створює новий екземпляр UserControl
@@ -105,8 +92,6 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(1055, 535);
             this.ParentForm.MinimumSize = new Size(1055, 535);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(1055, 535);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
             form.Text = "Learning My English Task #2";
@@ -115,10 +100,9 @@ namespace LearningMyEnglish
                 foreach (Control control in form.Controls)
                 {
                     control.Hide();
+
                     if (control is usrTask2)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створює новий екземпляр UserControl
@@ -136,20 +120,17 @@ namespace LearningMyEnglish
             // Змінює макс та мін розмір вікна
             this.ParentForm.MaximumSize = new Size(785, 545);
             this.ParentForm.MinimumSize = new Size(785, 545);
-            // Змінює сам розмір вікна
-            this.ResizeFormEvent?.Invoke(785, 545);
             // Ховає всі інші контроли окрім потрібного
             Form form = this.FindForm();
-            form.Text = "Learning My English Task #2";
+            form.Text = "Learning My English Task #3";
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
                 {
                     control.Hide();
+
                     if (control is usrTask3)
-                    {
                         control.Show();
-                    }
                 }
             }
             // Створює новий екземпляр UserControl
@@ -158,6 +139,34 @@ namespace LearningMyEnglish
             this.ParentForm.Controls.Add(usrTask3);
             usrTask3.Location = new Point(1, 1);
             usrTask3.Size = new Size(770, 505);
+        }
+
+        private void task4_Click(object sender, EventArgs e)
+        {
+            // Змінює місце росположення вікна після кліку
+            this.ParentForm.DesktopLocation = new System.Drawing.Point(400, 150);
+            // Змінює макс та мін розмір вікна
+            this.ParentForm.MaximumSize = new Size(935, 575);
+            this.ParentForm.MinimumSize = new Size(935, 575);
+            // Ховає всі інші контроли окрім потрібного
+            Form form = this.FindForm();
+            form.Text = "Learning My English Task #4";
+            if (form != null && form is Form)
+            {
+                foreach (Control control in form.Controls)
+                {
+                    control.Hide();
+
+                    if (control is usrTask4)
+                        control.Show();
+                }
+            }
+            // Створює новий екземпляр UserControl
+            var usrTask4 = new usrTask4();
+            // Додає UserControl на форму Form1
+            this.ParentForm.Controls.Add(usrTask4);
+            usrTask4.Location = new Point(1, 1);
+            usrTask4.Size = new Size(920, 535);
         }
     }
 }
