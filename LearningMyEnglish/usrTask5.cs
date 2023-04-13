@@ -87,5 +87,101 @@ namespace LearningMyEnglish
             check1.Enabled = false;
             task5ex1a.Focus();
         }
+
+        private void check2_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+            double exPoints = 0;
+            Dictionary<string, string> answers = new Dictionary<string, string>()
+            {
+                {"ex2n1", "her sister worked in Manchester"},
+                {"ex2n2", "he felt terrible"},
+                {"ex2n3", "they didn't know the way to the police station"},
+                {"ex2n4", "she heard strange noises in her garden every night"},
+                {"ex2n5", "he met his friend on the way to school"},
+                {"ex2n6", "her children like fish and chips"},
+                {"ex2n7", "the tickets for the show were very expensive"},
+                {"ex2n8", "Mr O'Connor sells the best meat around there"},
+                {"ex2n9", "they could watch TV every Saturday night"},
+                {"ex2n10", "she had to help her mother in the kitchen every evening"},
+                {"ex2n11", "he was looking for his key"},
+                {"ex2n12", "she liked something to drink"},
+                {"ex2n13", "their car made such a noise"},
+                {"ex2n14", "she was visiting her the following Monday"},
+                {"ex2n15", "he didn't invite her to the party"}
+            };
+
+            foreach (var item in answers)
+            {
+                i++;
+                var key = item.Key;
+                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
+                var correctAnswer = item.Value;
+
+                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
+                    exPoints += 8.33;
+                else
+                {
+                    ex2answers.Text += $"{i}. {correctAnswer}\r\n";
+                    userAnswer.ForeColor = Color.Red;
+                }
+            }
+
+            // Зміна тексту лейблу на кількість отриманих балів за завдання
+            pointscheck2.Text = $"Кількість балів: {exPoints}";
+            pointscheck2.BorderStyle = BorderStyle.FixedSingle;
+            pointscheck2.BackColor = Color.White;
+            // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
+            check2.Enabled = false;
+            task5ex2a.Focus();
+        }
+
+        private void check3_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+            double exPoints = 0;
+            Dictionary<string, string> answers = new Dictionary<string, string>()
+            {
+                {"ex3n1", "she likes ice cream"},
+                {"ex3n2", "they were on time"},
+                {"ex3n3", "he was sitting on the table"},
+                {"ex3n4", "Bill always goes to bed early"},
+                {"ex3n5", "she often drove (drives) to London"},
+                {"ex3n6", "he was going to answer the phone"},
+                {"ex3n7", "she wasn't doing her homework then"},
+                {"ex3n8", "he always sells all his flowers"},
+                {"ex3n9", "I could help her with the dishes"},
+                {"ex3n10", "he meets him every Friday"},
+                {"ex3n11", "he left that night"},
+                {"ex3n12", "he was watching TV"},
+                {"ex3n13", "she likes roast beef"},
+                {"ex3n14", "they bought a newspaper every day"},
+                {"ex3n15", "they were flying to New York"}
+            };
+
+            foreach (var item in answers)
+            {
+                i++;
+                var key = item.Key;
+                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
+                var correctAnswer = item.Value;
+
+                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
+                    exPoints += 8.33;
+                else
+                {
+                    ex3answers.Text += $"{i}. {correctAnswer}\r\n";
+                    userAnswer.ForeColor = Color.Red;
+                }
+            }
+
+            // Зміна тексту лейблу на кількість отриманих балів за завдання
+            pointscheck3.Text = $"Кількість балів: {exPoints}";
+            pointscheck3.BorderStyle = BorderStyle.FixedSingle;
+            pointscheck3.BackColor = Color.White;
+            // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
+            check3.Enabled = false;
+            task5ex3a.Focus();
+        }
     }
 }

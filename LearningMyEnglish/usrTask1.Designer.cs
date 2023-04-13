@@ -655,7 +655,7 @@
             this.ex4answers.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ex4answers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ex4answers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ex4answers.ForeColor = System.Drawing.Color.LimeGreen;
+            this.ex4answers.ForeColor = System.Drawing.Color.Green;
             this.ex4answers.Location = new System.Drawing.Point(48, 2499);
             this.ex4answers.Multiline = true;
             this.ex4answers.Name = "ex4answers";

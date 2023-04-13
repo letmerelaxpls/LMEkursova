@@ -269,6 +269,10 @@
     <None Include="images\task4ex4.png" />
     <None Include="images\task5ex1.png" />
     <None Include="images\task5ex11.png" />
+    <None Include="images\task5ex2.png" />
+    <None Include="images\task5ex21.png" />
+    <None Include="images\task5ex3.png" />
+    <None Include="images\task5ex31.png" />
     <Content Include="images\tasks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
