@@ -190,6 +190,7 @@
             this.task5.TabIndex = 8;
             this.task5.Text = "№5";
             this.task5.UseVisualStyleBackColor = false;
+            this.task5.Click += new System.EventHandler(this.task5_Click);
             // 
             // panel2
             // 

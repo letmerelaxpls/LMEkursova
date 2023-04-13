@@ -130,6 +130,12 @@
     <Compile Include="usrTask4.Designer.cs">
       <DependentUpon>usrTask4.cs</DependentUpon>
     </Compile>
+    <Compile Include="usrTask5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrTask5.Designer.cs">
+      <DependentUpon>usrTask5.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LearningMyEnglish - Tasks.resx">
       <DependentUpon>LearningMyEnglish - Tasks.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="usrTask4.resx">
       <DependentUpon>usrTask4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrTask5.resx">
+      <DependentUpon>usrTask5.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -258,6 +267,8 @@
     <None Include="images\task4ex2.png" />
     <None Include="images\task4ex3.png" />
     <None Include="images\task4ex4.png" />
+    <None Include="images\task5ex1.png" />
+    <None Include="images\task5ex11.png" />
     <Content Include="images\tasks.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
