@@ -269,7 +269,7 @@
             this.ex2ans10.Location = new System.Drawing.Point(553, 878);
             this.ex2ans10.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans10.Name = "ex2ans10";
-            this.ex2ans10.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans10.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans10.Size = new System.Drawing.Size(100, 26);
             this.ex2ans10.TabIndex = 87;
             // 
@@ -282,7 +282,7 @@
             this.ex2ans9.Location = new System.Drawing.Point(631, 843);
             this.ex2ans9.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans9.Name = "ex2ans9";
-            this.ex2ans9.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans9.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans9.Size = new System.Drawing.Size(30, 26);
             this.ex2ans9.TabIndex = 86;
             // 
@@ -295,7 +295,7 @@
             this.ex2ans8.Location = new System.Drawing.Point(490, 808);
             this.ex2ans8.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans8.Name = "ex2ans8";
-            this.ex2ans8.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans8.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans8.Size = new System.Drawing.Size(30, 26);
             this.ex2ans8.TabIndex = 85;
             // 
@@ -308,7 +308,7 @@
             this.ex2ans7.Location = new System.Drawing.Point(754, 775);
             this.ex2ans7.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans7.Name = "ex2ans7";
-            this.ex2ans7.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans7.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans7.Size = new System.Drawing.Size(100, 26);
             this.ex2ans7.TabIndex = 84;
             // 
@@ -321,7 +321,7 @@
             this.ex2ans6.Location = new System.Drawing.Point(857, 742);
             this.ex2ans6.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans6.Name = "ex2ans6";
-            this.ex2ans6.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans6.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans6.Size = new System.Drawing.Size(30, 26);
             this.ex2ans6.TabIndex = 83;
             // 
@@ -334,7 +334,7 @@
             this.ex2ans5.Location = new System.Drawing.Point(883, 706);
             this.ex2ans5.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans5.Name = "ex2ans5";
-            this.ex2ans5.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans5.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans5.Size = new System.Drawing.Size(30, 26);
             this.ex2ans5.TabIndex = 82;
             // 
@@ -347,7 +347,7 @@
             this.ex2ans4.Location = new System.Drawing.Point(701, 672);
             this.ex2ans4.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans4.Name = "ex2ans4";
-            this.ex2ans4.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans4.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans4.Size = new System.Drawing.Size(100, 26);
             this.ex2ans4.TabIndex = 81;
             // 
@@ -360,7 +360,7 @@
             this.ex2ans3.Location = new System.Drawing.Point(503, 641);
             this.ex2ans3.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans3.Name = "ex2ans3";
-            this.ex2ans3.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans3.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans3.Size = new System.Drawing.Size(30, 26);
             this.ex2ans3.TabIndex = 80;
             // 
@@ -373,7 +373,7 @@
             this.ex2ans2.Location = new System.Drawing.Point(503, 608);
             this.ex2ans2.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex2ans2.Name = "ex2ans2";
-            this.ex2ans2.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans2.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans2.Size = new System.Drawing.Size(100, 26);
             this.ex2ans2.TabIndex = 79;
             // 
@@ -386,7 +386,7 @@
             this.ex2ans1.Location = new System.Drawing.Point(478, 575);
             this.ex2ans1.MinimumSize = new System.Drawing.Size(30, 0);
             this.ex2ans1.Name = "ex2ans1";
-            this.ex2ans1.Padding = new System.Windows.Forms.Padding(3);
+            this.ex2ans1.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex2ans1.Size = new System.Drawing.Size(30, 26);
             this.ex2ans1.TabIndex = 78;
             // 
@@ -399,7 +399,7 @@
             this.ex3ans20.Location = new System.Drawing.Point(438, 1757);
             this.ex3ans20.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans20.Name = "ex3ans20";
-            this.ex3ans20.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans20.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans20.Size = new System.Drawing.Size(100, 26);
             this.ex3ans20.TabIndex = 77;
             // 
@@ -412,7 +412,7 @@
             this.ex3ans19.Location = new System.Drawing.Point(464, 1721);
             this.ex3ans19.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans19.Name = "ex3ans19";
-            this.ex3ans19.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans19.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans19.Size = new System.Drawing.Size(100, 26);
             this.ex3ans19.TabIndex = 76;
             // 
@@ -425,7 +425,7 @@
             this.ex3ans18.Location = new System.Drawing.Point(545, 1691);
             this.ex3ans18.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans18.Name = "ex3ans18";
-            this.ex3ans18.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans18.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans18.Size = new System.Drawing.Size(100, 26);
             this.ex3ans18.TabIndex = 75;
             // 
@@ -438,7 +438,7 @@
             this.ex3ans17.Location = new System.Drawing.Point(545, 1653);
             this.ex3ans17.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans17.Name = "ex3ans17";
-            this.ex3ans17.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans17.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans17.Size = new System.Drawing.Size(100, 26);
             this.ex3ans17.TabIndex = 74;
             // 
@@ -451,7 +451,7 @@
             this.ex3ans16.Location = new System.Drawing.Point(683, 1618);
             this.ex3ans16.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans16.Name = "ex3ans16";
-            this.ex3ans16.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans16.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans16.Size = new System.Drawing.Size(100, 26);
             this.ex3ans16.TabIndex = 73;
             // 
@@ -464,7 +464,7 @@
             this.ex3ans15.Location = new System.Drawing.Point(490, 1584);
             this.ex3ans15.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans15.Name = "ex3ans15";
-            this.ex3ans15.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans15.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans15.Size = new System.Drawing.Size(100, 26);
             this.ex3ans15.TabIndex = 72;
             // 
@@ -477,7 +477,7 @@
             this.ex3ans14.Location = new System.Drawing.Point(549, 1551);
             this.ex3ans14.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans14.Name = "ex3ans14";
-            this.ex3ans14.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans14.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans14.Size = new System.Drawing.Size(100, 26);
             this.ex3ans14.TabIndex = 71;
             // 
@@ -490,7 +490,7 @@
             this.ex3ans13.Location = new System.Drawing.Point(438, 1516);
             this.ex3ans13.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans13.Name = "ex3ans13";
-            this.ex3ans13.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans13.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans13.Size = new System.Drawing.Size(100, 26);
             this.ex3ans13.TabIndex = 70;
             // 
@@ -503,7 +503,7 @@
             this.ex3ans12.Location = new System.Drawing.Point(590, 1482);
             this.ex3ans12.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans12.Name = "ex3ans12";
-            this.ex3ans12.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans12.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans12.Size = new System.Drawing.Size(100, 26);
             this.ex3ans12.TabIndex = 69;
             // 
@@ -516,7 +516,7 @@
             this.ex3ans11.Location = new System.Drawing.Point(681, 1447);
             this.ex3ans11.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans11.Name = "ex3ans11";
-            this.ex3ans11.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans11.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans11.Size = new System.Drawing.Size(100, 26);
             this.ex3ans11.TabIndex = 68;
             // 
@@ -529,7 +529,7 @@
             this.ex3ans10.Location = new System.Drawing.Point(478, 1414);
             this.ex3ans10.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans10.Name = "ex3ans10";
-            this.ex3ans10.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans10.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans10.Size = new System.Drawing.Size(100, 26);
             this.ex3ans10.TabIndex = 67;
             // 
@@ -542,7 +542,7 @@
             this.ex3ans9.Location = new System.Drawing.Point(474, 1377);
             this.ex3ans9.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans9.Name = "ex3ans9";
-            this.ex3ans9.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans9.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans9.Size = new System.Drawing.Size(100, 26);
             this.ex3ans9.TabIndex = 66;
             // 
@@ -555,7 +555,7 @@
             this.ex3ans8.Location = new System.Drawing.Point(478, 1344);
             this.ex3ans8.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans8.Name = "ex3ans8";
-            this.ex3ans8.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans8.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans8.Size = new System.Drawing.Size(100, 26);
             this.ex3ans8.TabIndex = 65;
             // 
@@ -568,7 +568,7 @@
             this.ex3ans7.Location = new System.Drawing.Point(418, 1311);
             this.ex3ans7.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans7.Name = "ex3ans7";
-            this.ex3ans7.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans7.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans7.Size = new System.Drawing.Size(100, 26);
             this.ex3ans7.TabIndex = 64;
             // 
@@ -581,7 +581,7 @@
             this.ex3ans6.Location = new System.Drawing.Point(571, 1275);
             this.ex3ans6.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans6.Name = "ex3ans6";
-            this.ex3ans6.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans6.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans6.Size = new System.Drawing.Size(100, 26);
             this.ex3ans6.TabIndex = 63;
             // 
@@ -594,7 +594,7 @@
             this.ex3ans5.Location = new System.Drawing.Point(490, 1242);
             this.ex3ans5.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans5.Name = "ex3ans5";
-            this.ex3ans5.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans5.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans5.Size = new System.Drawing.Size(100, 26);
             this.ex3ans5.TabIndex = 62;
             // 
@@ -607,7 +607,7 @@
             this.ex3ans4.Location = new System.Drawing.Point(664, 1208);
             this.ex3ans4.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans4.Name = "ex3ans4";
-            this.ex3ans4.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans4.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans4.Size = new System.Drawing.Size(100, 26);
             this.ex3ans4.TabIndex = 61;
             // 
@@ -620,7 +620,7 @@
             this.ex3ans3.Location = new System.Drawing.Point(490, 1172);
             this.ex3ans3.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans3.Name = "ex3ans3";
-            this.ex3ans3.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans3.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans3.Size = new System.Drawing.Size(100, 26);
             this.ex3ans3.TabIndex = 60;
             // 
@@ -633,7 +633,7 @@
             this.ex3ans2.Location = new System.Drawing.Point(418, 1140);
             this.ex3ans2.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans2.Name = "ex3ans2";
-            this.ex3ans2.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans2.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans2.Size = new System.Drawing.Size(100, 26);
             this.ex3ans2.TabIndex = 59;
             // 
@@ -646,7 +646,7 @@
             this.ex3ans1.Location = new System.Drawing.Point(503, 1105);
             this.ex3ans1.MinimumSize = new System.Drawing.Size(100, 0);
             this.ex3ans1.Name = "ex3ans1";
-            this.ex3ans1.Padding = new System.Windows.Forms.Padding(3);
+            this.ex3ans1.Padding = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ex3ans1.Size = new System.Drawing.Size(100, 26);
             this.ex3ans1.TabIndex = 58;
             // 
@@ -660,7 +660,7 @@
             this.ex4answers.Multiline = true;
             this.ex4answers.Name = "ex4answers";
             this.ex4answers.ReadOnly = true;
-            this.ex4answers.Size = new System.Drawing.Size(551, 383);
+            this.ex4answers.Size = new System.Drawing.Size(551, 285);
             this.ex4answers.TabIndex = 57;
             // 
             // pointscheck4
@@ -1001,7 +1001,7 @@
             this.backtomenu.BackgroundImage = global::LearningMyEnglish.Properties.Resources.back;
             this.backtomenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backtomenu.Location = new System.Drawing.Point(1101, 13);
+            this.backtomenu.Location = new System.Drawing.Point(960, 13);
             this.backtomenu.Name = "backtomenu";
             this.backtomenu.Size = new System.Drawing.Size(48, 48);
             this.backtomenu.TabIndex = 19;
@@ -1418,9 +1418,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel2.Location = new System.Drawing.Point(807, 468);
+            this.panel2.Location = new System.Drawing.Point(757, 468);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(328, 457);
+            this.panel2.Size = new System.Drawing.Size(278, 457);
             this.panel2.TabIndex = 88;
             // 
             // usrTask1

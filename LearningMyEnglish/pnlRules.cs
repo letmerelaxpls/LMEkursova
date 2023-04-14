@@ -17,144 +17,67 @@ namespace LearningMyEnglish
             InitializeComponent();
         }
 
-        private void rule1_Click(object sender, EventArgs e)
+        private void ShowRule(int taskNumber, Type taskType, Size formSize, Point formLocation, string formTitle)
         {
+            // Змінюємо місце розташування вікна
+            this.ParentForm.DesktopLocation =formLocation;
 
-            // Змінює місце росположення вікна після кліку
-            this.ParentForm.DesktopLocation = new System.Drawing.Point(400, 150);
-            // Змінює макс та мін розмір вікна
-            this.ParentForm.MaximumSize = new Size(810, 535);
-            this.ParentForm.MinimumSize = new Size(810, 535);
-            // Ховає всі інші контроли окрім потрібного
+            // Змінюємо макс та мін розмір вікна
+            this.ParentForm.MaximumSize = formSize;
+            this.ParentForm.MinimumSize = formSize;
+
+            // Ховаємо всі інші контроли, окрім потрібного
             Form form = this.FindForm();
-            form.Text = "Learning My English Rule #1";
+            form.Text = formTitle;
             if (form != null && form is Form)
             {
                 foreach (Control control in form.Controls)
                 {
-                    control.Hide();
-
-                    if (control is usrRule1)
-                        control.Show();
+                    if (control is UserControl userControl && userControl.GetType() == taskType)
+                    {
+                        // Якщо відповідний UserControl вже додано, то просто показуємо його
+                        userControl.Show();
+                    }
+                    else
+                    {
+                        // Ховаємо інші UserControl
+                        control.Hide();
+                    }
                 }
             }
-            // Створює новий екземпляр UserControl
-            var usrRule1 = new usrRule1();
-            // Додає UserControl на форму Form1
-            this.ParentForm.Controls.Add(usrRule1);
-            usrRule1.Location = new Point(1, 1);
-            usrRule1.Size = new Size(795, 495);
+
+            // Створюємо новий екземпляр UserControl
+            var taskControl = (UserControl)Activator.CreateInstance(taskType);
+
+            // Додаємо UserControl на форму Form1
+            this.ParentForm.Controls.Add(taskControl);
+            taskControl.Location = new Point(1, 1);
+            taskControl.Size = new Size(formSize.Width - 15, formSize.Height - 40);
+        }
+
+        private void rule1_Click(object sender, EventArgs e)
+        {
+            ShowRule(1, typeof(usrRule1), new Size(810, 535), new Point(400, 150), "Learning My English Task #1");
         }
 
         private void rules2_Click(object sender, EventArgs e)
         {
-            // Змінює місце росположення вікна після кліку
-            this.ParentForm.DesktopLocation = new System.Drawing.Point(400, 150);
-            // Змінює макс та мін розмір вікна
-            this.ParentForm.MaximumSize = new Size(645, 575);
-            this.ParentForm.MinimumSize = new Size(645, 575);
-            // Ховає всі інші контроли окрім потрібного
-            Form form = this.FindForm();
-            form.Text = "Learning My English Rule #2";
-            if (form != null && form is Form)
-            {
-                foreach (Control control in form.Controls)
-                {
-                    control.Hide();
-                    if (control is usrRule2)
-                        control.Show();
-                }
-            }
-            // Створюємо новий екземпляр UserControl
-            var usrRule2 = new usrRule2();
-            // Додаємо UserControl на форму Form1
-            this.ParentForm.Controls.Add(usrRule2);
-            usrRule2.Location = new Point(1, 1);
-            usrRule2.Size = new Size(630, 535);
+            ShowRule(2, typeof(usrRule2), new Size(645, 575), new Point(400, 150), "Learning My English Task #2");
         }
 
         private void rules3_Click(object sender, EventArgs e)
         {
-            // Змінює місце росположення вікна після кліку
-            this.ParentForm.DesktopLocation = new System.Drawing.Point(400, 50);
-            // Змінює макс та мін розмір вікна
-            this.ParentForm.MaximumSize = new Size(741, 705);
-            this.ParentForm.MinimumSize = new Size(741, 705);
-            // Ховає всі інші контроли окрім потрібного
-            Form form = this.FindForm();
-            form.Text = "Learning My English Rule #3";
-            if (form != null && form is Form)
-            {
-                foreach (Control control in form.Controls)
-                {
-                    control.Hide();
-
-                    if (control is usrRule3)
-                        control.Show();
-                }
-            }
-            // Створює новий екземпляр UserControl
-            var usrRule3 = new usrRule3();
-            // Додає UserControl на форму Form1
-            this.ParentForm.Controls.Add(usrRule3);
-            usrRule3.Location = new Point(1, 1);
-            usrRule3.Size = new Size(726, 665);
+            ShowRule(3, typeof(usrRule3), new Size(741, 705), new Point(400, 50), "Learning My English Task #2");
         }
 
         private void rules4_Click(object sender, EventArgs e)
         {
-            // Змінює місце росположення вікна після кліку
-            this.ParentForm.DesktopLocation = new System.Drawing.Point(200, 50);
-            // Змінює макс та мін розмір вікна
-            this.ParentForm.MaximumSize = new Size(945, 745);
-            this.ParentForm.MinimumSize = new Size(945, 745);
-            // Ховає всі інші контроли окрім потрібного
-            Form form = this.FindForm();
-            form.Text = "Learning My English Rule #4";
-            if (form != null && form is Form)
-            {
-                foreach (Control control in form.Controls)
-                {
-                    control.Hide();
-
-                    if (control is usrRule4)
-                        control.Show();
-                }
-            }
-            // Створює новий екземпляр UserControl
-            var usrRule4 = new usrRule4();
-            // Додає UserControl на форму Form1
-            this.ParentForm.Controls.Add(usrRule4);
-            usrRule4.Location = new Point(1, 1);
-            usrRule4.Size = new Size(930, 705);
+            ShowRule(4, typeof(usrRule4), new Size(945, 745), new Point(300, 50), "Learning My English Task #2");
         }
 
         private void rules5_Click(object sender, EventArgs e)
         {
-            // Змінює місце росположення вікна після кліку
-            this.ParentForm.DesktopLocation = new System.Drawing.Point(200, 50);
-            // Змінює макс та мін розмір вікна
-            this.ParentForm.MaximumSize = new Size(755, 670);
-            this.ParentForm.MinimumSize = new Size(755, 670);
-            // Ховає всі інші контроли окрім потрібного
-            Form form = this.FindForm();
-            form.Text = "Learning My English Rule #5";
-            if (form != null && form is Form)
-            {
-                foreach (Control control in form.Controls)
-                {
-                    control.Hide();
-
-                    if (control is usrRule5)
-                        control.Show();
-                }
-            }
-            // Створює новий екземпляр UserControl
-            var usrRule5 = new usrRule5();
-            // Додає UserControl на форму Form1
-            this.ParentForm.Controls.Add(usrRule5);
-            usrRule5.Location = new Point(1, 1);
-            usrRule5.Size = new Size(740, 630);
+            ShowRule(5, typeof(usrRule5), new Size(755, 670), new Point(400, 50), "Learning My English Task #2");
         }
     }
 }

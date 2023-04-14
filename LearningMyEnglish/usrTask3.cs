@@ -19,31 +19,12 @@ namespace LearningMyEnglish
 
         private void backtomenu_Click(object sender, EventArgs e)
         {
-            // Встановлює місце після закриття правила
-            this.ParentForm.DesktopLocation = new System.Drawing.Point(500, 250);
-            // Повертає макс та мін розміри вікна меню
-            this.ParentForm.MaximumSize = new Size(610, 355);
-            this.ParentForm.MinimumSize = new Size(610, 355);
-            // Повертає всі контроли окрім цього
-            Form form = this.FindForm();
-            form.Text = "Learning My English Menu";
-            if (form != null && form is Form)
-            {
-                foreach (Control control in form.Controls)
-                {
-                    if (control is pnlRules || control is pnlTasks)
-                    control.Show();
-
-                    if (control is usrTask3)
-                        control.Hide();
-                }
-            }
+            BackToMenu.GoBack(this);
         }
 
         private void check1_Click(object sender, EventArgs e)
         {
-            double exPoints = 0;
-            Dictionary<string, (string, Label)> answers = new Dictionary<string, (string, Label)>()
+            Dictionary<string, (string, Label)> correctAnswers = new Dictionary<string, (string, Label)>()
             {
                 {"ex1n1", ("have", ex1n1ans)},
                 {"ex1n2", ("will be", ex1n2ans)},
@@ -62,25 +43,10 @@ namespace LearningMyEnglish
                 {"ex1n15", ("will be", ex1n15ans)}
             };
 
-            foreach (var item in answers)
-            {
-                var key = item.Key;
-                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
-                var correctAnswer = item.Value.Item1;
-                var answerLabel = item.Value.Item2;
-
-                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
-                    exPoints += 6.66;
-                else
-                {
-                    answerLabel.Text = correctAnswer;
-                    answerLabel.BorderStyle = BorderStyle.FixedSingle;
-                    userAnswer.ForeColor = Color.Red;
-                }
-            }
+            double points = TaskChecker.CheckTaskV2(this, correctAnswers, 6.66);
 
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck1.Text = $"Кількість балів: {exPoints}";
+            pointscheck1.Text = $"Кількість балів: {points}";
             pointscheck1.BorderStyle = BorderStyle.FixedSingle;
             pointscheck1.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
@@ -90,8 +56,7 @@ namespace LearningMyEnglish
 
         private void check2_Click(object sender, EventArgs e)
         {
-            double exPoints = 0;
-            Dictionary<string, (string, Label)> answers = new Dictionary<string, (string, Label)>()
+            Dictionary<string, (string, Label)> correctAnswers = new Dictionary<string, (string, Label)>()
             {
                 {"ex2n1", ("would take", ex2n1ans)},
                 {"ex2n2", ("was", ex2n2ans)},
@@ -110,25 +75,10 @@ namespace LearningMyEnglish
                 {"ex2n15", ("work", ex2n15ans)}
             };
 
-            foreach (var item in answers)
-            {
-                var key = item.Key;
-                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
-                var correctAnswer = item.Value.Item1;
-                var answerLabel = item.Value.Item2;
-
-                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
-                    exPoints += 6.66;
-                else
-                {
-                    answerLabel.Text = correctAnswer;
-                    answerLabel.BorderStyle = BorderStyle.FixedSingle;
-                    userAnswer.ForeColor = Color.Red;
-                }
-            }
+            double points = TaskChecker.CheckTaskV2(this, correctAnswers, 6.66);
 
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck2.Text = $"Кількість балів: {exPoints}";
+            pointscheck2.Text = $"Кількість балів: {points}";
             pointscheck2.BorderStyle = BorderStyle.FixedSingle;
             pointscheck2.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
@@ -138,8 +88,7 @@ namespace LearningMyEnglish
 
         private void check3_Click(object sender, EventArgs e)
         {
-            double exPoints = 0;
-            Dictionary<string, (string, Label)> answers = new Dictionary<string, (string, Label)>()
+            Dictionary<string, (string, Label)> correctAnswers = new Dictionary<string, (string, Label)>()
             {
                 {"ex3n1", ("will not oversleep", ex3n1ans)},
                 {"ex3n2", ("would go", ex3n2ans)},
@@ -158,25 +107,10 @@ namespace LearningMyEnglish
                 {"ex3n15", ("would help", ex3n15ans)}
             };
 
-            foreach (var item in answers)
-            {
-                var key = item.Key;
-                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
-                var correctAnswer = item.Value.Item1;
-                var answerLabel = item.Value.Item2;
-
-                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
-                    exPoints += 6.66;
-                else
-                {
-                    answerLabel.Text = correctAnswer;
-                    answerLabel.BorderStyle = BorderStyle.FixedSingle;
-                    userAnswer.ForeColor = Color.Red;
-                }
-            }
+            double points = TaskChecker.CheckTaskV2(this, correctAnswers, 6.66);
 
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck3.Text = $"Кількість балів: {exPoints}";
+            pointscheck3.Text = $"Кількість балів: {points}";
             pointscheck3.BorderStyle = BorderStyle.FixedSingle;
             pointscheck3.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
@@ -186,8 +120,7 @@ namespace LearningMyEnglish
 
         private void check4_Click(object sender, EventArgs e)
         {
-            double exPoints = 0;
-            Dictionary<string, (string, Label)> answers = new Dictionary<string, (string, Label)>()
+            Dictionary<string, (string, Label)> correctAnswers = new Dictionary<string, (string, Label)>()
             {
                 {"ex4n1", ("had sold", ex4n1ans)},
                 {"ex4n2", ("will pass", ex4n2ans)},
@@ -206,25 +139,10 @@ namespace LearningMyEnglish
                 {"ex4n15", ("would play", ex4n15ans)}
             };
 
-            foreach (var item in answers)
-            {
-                var key = item.Key;
-                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
-                var correctAnswer = item.Value.Item1;
-                var answerLabel = item.Value.Item2;
-
-                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
-                    exPoints += 6.66;
-                else
-                {
-                    answerLabel.Text = correctAnswer;
-                    answerLabel.BorderStyle = BorderStyle.FixedSingle;
-                    userAnswer.ForeColor = Color.Red;
-                }
-            }
+            double points = TaskChecker.CheckTaskV2(this, correctAnswers, 6.66);
 
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck4.Text = $"Кількість балів: {exPoints}";
+            pointscheck4.Text = $"Кількість балів: {points}";
             pointscheck4.BorderStyle = BorderStyle.FixedSingle;
             pointscheck4.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей
@@ -234,8 +152,7 @@ namespace LearningMyEnglish
 
         private void check5_Click(object sender, EventArgs e)
         {
-            double exPoints = 0;
-            Dictionary<string, (string, Label)> answers = new Dictionary<string, (string, Label)>()
+            Dictionary<string, (string, Label)> correctAnswers = new Dictionary<string, (string, Label)>()
             {
                 {"ex5n1", ("will catch", ex5n1ans)},
                 {"ex5n2", ("had", ex5n2ans)},
@@ -254,25 +171,10 @@ namespace LearningMyEnglish
                 {"ex5n15", ("drove", ex5n15ans)}
             };
 
-            foreach (var item in answers)
-            {
-                var key = item.Key;
-                var userAnswer = Controls.Find(key, true).FirstOrDefault() as TextBox;
-                var correctAnswer = item.Value.Item1;
-                var answerLabel = item.Value.Item2;
-
-                if (userAnswer != null && string.Equals(userAnswer.Text.Trim(), correctAnswer, StringComparison.OrdinalIgnoreCase))
-                    exPoints += 6.66;
-                else
-                {
-                    answerLabel.Text = correctAnswer;
-                    answerLabel.BorderStyle = BorderStyle.FixedSingle;
-                    userAnswer.ForeColor = Color.Red;
-                }
-            }
+            double points = TaskChecker.CheckTaskV2(this, correctAnswers, 6.66);
 
             // Зміна тексту лейблу на кількість отриманих балів за завдання
-            pointscheck5.Text = $"Кількість балів: {exPoints}";
+            pointscheck5.Text = $"Кількість балів: {points}";
             pointscheck5.BorderStyle = BorderStyle.FixedSingle;
             pointscheck5.BackColor = Color.White;
             // Вимикання кнопки, щоб не можна було за її допомогою 'абузити' перевірку правильних відповідей

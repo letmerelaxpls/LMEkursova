@@ -130,8 +130,8 @@
   <data name="rule5part1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule5part1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="task5ex2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\task5ex2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rule2text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule2text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="task1vpr4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\task1vpr4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +166,8 @@
   <data name="rule4part5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule4part5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rule4part4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rule4part4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="task5ex31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\task5ex31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="task3ex1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\task3ex1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -228,6 +228,9 @@
   </data>
   <data name="rule5part2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule5part2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task5ex4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\task5ex4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="task3ex5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\task3ex5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,6 +298,9 @@
   <data name="rule5part3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule5part3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="task5ex2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\task5ex2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rule4part1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule4part1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -307,8 +313,8 @@
   <data name="rule4part3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule4part3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rule2text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rule2text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rule4part4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rule4part4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rule5part11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rule5part11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -340,7 +346,7 @@
   <data name="task5ex3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\task5ex3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="task5ex31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\task5ex31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="task5ex41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\task5ex41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
